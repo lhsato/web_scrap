@@ -3,6 +3,10 @@ provinces = ["Banteay Meanchey", "Battambang", "Kampong Cham", "Kampong Chhnang"
 
 # print(provinces[-25])
 
-for province in provinces:
-    if province == "Phnom Penh":
-        print(province)
+# for province in provinces:
+#     if province == "Phnom Penh":
+#         print(province)
+
+
+with open('yuki.txt','+w') as file:
+    file.write("add some text")
