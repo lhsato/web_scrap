@@ -21,3 +21,5 @@ df_provinces.to_csv('utils/provinces.csv', index=False)
 
 with open('yuki.txt','+w') as file:
     file.write("add some text")
+
+    # test
