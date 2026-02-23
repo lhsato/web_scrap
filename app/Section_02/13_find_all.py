@@ -15,7 +15,7 @@ title = box.find('h1').get_text()
 transcripts  = box.find_all('p', class_ = 'cue-line')
 # .get_text(strip=True, separator='\n')
 
-with open(f'{title}_all.txt','w') as file:
+with open(f'..\..\{title}_all.txt','w') as file:
     for transcript in transcripts:
         file.write("%s\n" % transcript)
 
