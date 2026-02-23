@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasename}",
+            "console": "integratedTerminal",
+            "python": "G:/src/python/web_scrap/Scripts/python.exe",
+            "cwd": "${fileDirname}",
+            "justMyCode": false
+        }
+    ],
+    "python-envs.pythonProjects": []
+}
