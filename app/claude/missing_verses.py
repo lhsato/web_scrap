@@ -73,6 +73,9 @@ _NOTE_BOUNDARY = re.compile(r'(?:^|(?<=[.!?"\])])) *(tn|sn|tc)(?= )')
 
 # Sentence-ending punctuation used to find where a note body ends
 _PUNCT = re.compile(r'[.!?"\u201c\u201d\u2018\u2019\])]')
+# Sentence-ending punctuation for trailing text search (no quotes)
+_SENT_END = re.compile(r'[.!?]')
+
 
 
 # ── Data classes ──────────────────────────────────────────────────────────────
@@ -221,16 +224,28 @@ def _split_note_block(block: str, is_last: bool) -> tuple[list[Footnote], str]:
         body       = block[body_start:body_end].strip()
         footnotes.append(Footnote(type=prefix, text=body))  # type: ignore[arg-type]
 
-    # Strip trailing bible text from last footnote (non-last blocks only)
+    # Strip trailing bible text from the last footnote body.
+    # Always extract if the trailing text starts with a verse number —
+    # a new verse can follow even the very last note block.
+    # For non-last blocks, also extract any other trailing bible text.
+    # We clean leading punctuation from 'after' before checking,
+    # so a closing quote like '"day"' is not mistaken for real trailing text.
     trailing = ""
-    if not is_last and footnotes:
+    if footnotes:
         last_fn = footnotes[-1]
-        for m in reversed(list(_PUNCT.finditer(last_fn.text))):
+        for m in reversed(list(_SENT_END.finditer(last_fn.text))):
             after = last_fn.text[m.end():].strip()
-            if after and not re.match(r'^(tn|sn|tc) ', after):
-                # FIX: strip any leading punctuation chars from trailing text
-                # e.g. '" created' -> 'created'
-                trailing = re.sub(r'^[.!?"\u201c\u201d\u2018\u2019\])\s]+', '', after).strip()
+            if not after:
+                continue
+            if re.match(r'^(tn|sn|tc) ', after):
+                continue   # next note prefix — not trailing text
+            # Clean leading punctuation before deciding if this is real trailing text
+            after_clean = re.sub(r'^[.!?"\u201c\u201d\u2018\u2019\])\s]+', '', after).strip()
+            if not after_clean:
+                continue   # only punctuation after this point — keep scanning
+            is_verse_start = bool(re.match(r'\d+\s', after_clean))
+            if is_verse_start or not is_last:
+                trailing = after_clean
                 last_fn.text = last_fn.text[:m.end()].strip()
                 break
 
@@ -280,25 +295,56 @@ def _parse_paragraph(p_tag: Tag) -> Paragraph:
     if pending_text:
         chunks.append(Chunk(text=pending_text, footnotes=[]))
 
-    # Group chunks into Verses by detecting leading verse numbers
+    # Group chunks into Verses by detecting verse numbers.
+    # A verse number can appear at the START of a chunk text or EMBEDDED
+    # mid-text (e.g. "...end of v6. 7 Then the eyes...").
+    # We use re.split to find ALL verse transitions within each chunk text.
     paragraph = Paragraph()
     current_verse: Verse | None = None
 
-    for chunk in chunks:
-        m = re.match(r'^(\d+)\s+(.*)', chunk.text, re.DOTALL)
-        if m:
-            if current_verse is not None:
-                paragraph.verses.append(current_verse)
-            current_verse = Verse(number=int(m.group(1)))
-            chunk.text = m.group(2).strip()
-
+    def emit_chunk(text: str, footnotes: list) -> None:
+        """Attach a Chunk to the current verse, creating one if needed."""
+        nonlocal current_verse
         if current_verse is None:
             current_verse = Verse(number=None)
+        if text or footnotes:
+            current_verse.chunks.append(Chunk(text=text, footnotes=footnotes))
 
-        if chunk.text or chunk.footnotes:
-            current_verse.chunks.append(chunk)
+    def new_verse(number: int) -> None:
+        """Save the current verse and start a new one."""
+        nonlocal current_verse
+        if current_verse is not None and current_verse.chunks:
+            paragraph.verses.append(current_verse)
+        current_verse = Verse(number=number)
 
-    if current_verse is not None:
+    # Pattern: standalone digit(s) at start of string or after whitespace,
+    # followed by a space — avoids splitting on "v.1", "Gen 1:1", etc.
+    _VERSE_NUM = re.compile(r'(?:^|(?<=\s))(\d+)(?=\s)')
+
+    for chunk in chunks:
+        segments = _VERSE_NUM.split(chunk.text)
+        # re.split with one capturing group gives:
+        # [pre_text, digit, post_text, digit, post_text, ...]
+
+        if len(segments) == 1:
+            # No verse number in this chunk text
+            emit_chunk(chunk.text, chunk.footnotes)
+        else:
+            i = 0
+            while i < len(segments):
+                seg = segments[i].strip()
+                if i + 1 < len(segments) and re.fullmatch(r'\d+', segments[i + 1]):
+                    # seg = text before a verse number
+                    if seg:
+                        emit_chunk(seg, [])          # no footnotes on pre-number text
+                    new_verse(int(segments[i + 1]))
+                    i += 2
+                else:
+                    # Last segment — footnotes attach here
+                    emit_chunk(seg, chunk.footnotes)
+                    i += 1
+
+    if current_verse is not None and current_verse.chunks:
         paragraph.verses.append(current_verse)
 
     return paragraph
@@ -370,9 +416,10 @@ def print_structure(cp: ChapterPage, show_footnotes: bool = True) -> None:
             #     print(f"     [{label}] {verse.plain_text[:80]}"
             #           f"{'...' if len(verse.plain_text) > 80 else ''}")
             #     if show_footnotes:
-            #         for fn in verse.all_footnotes:
-            #             print(f"             [{fn.type.upper()}] "
-            #                   f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")
+            #         for chunk in verse.chunks:
+            #             for fn in chunk.footnotes:
+            #                 print(f"             [{fn.type.upper()}] "
+            #                       f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")
             for verse in para.verses:
                 print(f"     [v{verse.number if verse.number is not None else '(line)'}] "
                       f"{verse.plain_text[:80]}{'...' if len(verse.plain_text) > 80 else ''}"
@@ -383,13 +430,13 @@ def print_structure(cp: ChapterPage, show_footnotes: bool = True) -> None:
                         print(f"       [chunk] {chunk.text[:60]}{'...' if len(chunk.text) > 60 else ''}")
                         for fn in chunk.footnotes:
                             print(f"                 [{fn.type.upper()}] "
-                                    f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")    
+                                    f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")   
 
 
 # ── Entry point ───────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    URL = "https://www.bible.com/bible/107/GEN.1.NET"
+    URL = "https://www.bible.com/bible/107/GEN.3.NET"
     print(f"Scraping {URL} ...\n")
     chapter = scrape(URL)
     print_structure(chapter, show_footnotes=True)
