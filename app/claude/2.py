@@ -365,25 +365,14 @@ def print_structure(cp: ChapterPage, show_footnotes: bool = True) -> None:
         print(f"\n-- Section {s_i}: {section.heading or '(no heading)'}")
         for p_i, para in enumerate(section.paragraphs, 1):
             print(f"   Paragraph {p_i}:")
-            # for verse in para.verses:
-            #     label = f"v{verse.number}" if verse.number is not None else "(line)"
-            #     print(f"     [{label}] {verse.plain_text[:80]}"
-            #           f"{'...' if len(verse.plain_text) > 80 else ''}")
-            #     if show_footnotes:
-            #         for fn in verse.all_footnotes:
-            #             print(f"             [{fn.type.upper()}] "
-            #                   f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")
             for verse in para.verses:
-                print(f"     [v{verse.number if verse.number is not None else '(line)'}] "
-                      f"{verse.plain_text[:80]}{'...' if len(verse.plain_text) > 80 else ''}"
-                    # f"{verse.plain_text}"
-                      )
-                for chunk in verse.chunks:
-                    if chunk.footnotes:
-                        print(f"       [chunk] {chunk.text[:60]}{'...' if len(chunk.text) > 60 else ''}")
-                        for fn in chunk.footnotes:
-                            print(f"                 [{fn.type.upper()}] "
-                                    f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")    
+                label = f"v{verse.number}" if verse.number is not None else "(line)"
+                print(f"     [{label}] {verse.plain_text[:80]}"
+                      f"{'...' if len(verse.plain_text) > 80 else ''}")
+                if show_footnotes:
+                    for fn in verse.all_footnotes:
+                        print(f"             [{fn.type.upper()}] "
+                              f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")
 
 
 # ── Entry point ───────────────────────────────────────────────────────────────

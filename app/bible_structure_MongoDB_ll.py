@@ -119,6 +119,17 @@ _PUNCT = re.compile(r'[.!?"\])]')
 _NOTE_BOUNDARY = re.compile(r'(?:^|(?<=[.!?"\])])) *(tn|sn|tc)(?= )')
 
 
+# Before — only matched ASCII "
+_PUNCT = re.compile(r'[.!?"\])]')
+trailing = re.sub(r'^[.!?"\])\s]+', '', after).strip()
+
+# After — also matches Unicode curly quotes " " ' '
+_PUNCT = re.compile(r'[.!?"\u201c\u201d\u2018\u2019\])]')
+trailing = re.sub(r'^[.!?"\u201c\u201d\u2018\u2019\])\s]+', '', after).strip()
+
+
+
+
 # ── Data classes ──────────────────────────────────────────────────────────────
 
 @dataclass
@@ -500,7 +511,7 @@ def print_structure(cp: ChapterPage, show_footnotes: bool = True) -> None:
             #                   f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")
             for verse in para.verses:
                 print(f"     [v{verse.number if verse.number is not None else '(line)'}] "
-                    #   f"{verse.plain_text[:80]}{'...' if len(verse.plain_text) > 80 else ''}"
+                      f"{verse.plain_text[:80]}{'...' if len(verse.plain_text) > 80 else ''}"
                       )
                 for chunk in verse.chunks:
                     if chunk.footnotes:
@@ -516,7 +527,7 @@ def print_structure(cp: ChapterPage, show_footnotes: bool = True) -> None:
 if __name__ == "__main__":
     import json
 
-    URL = "https://www.bible.com/bible/107/GEN.3.NET"
+    URL = "https://www.bible.com/bible/107/GEN.1.NET"
     print(f"Scraping {URL} ...\n")
     chapter = scrape(URL)
     print_structure(chapter, show_footnotes=True)

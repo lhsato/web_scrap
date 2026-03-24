@@ -363,7 +363,8 @@ def print_structure(cp: ChapterPage, show_footnotes: bool = True) -> None:
             for verse in para.verses:
                 label = f"v{verse.number}" if verse.number is not None else "(line)"
                 print(f"     [{label}] {verse.plain_text[:80]}"
-                      f"{'...' if len(verse.plain_text) > 80 else ''}")
+                    #   f"{'...' if len(verse.plain_text) > 80 else ''}")
+                    f"{verse.plain_text}")
                 if show_footnotes:
                     for fn in verse.all_footnotes:
                         print(f"             [{fn.type.upper()}] "
