@@ -436,7 +436,7 @@ def print_structure(cp: ChapterPage, show_footnotes: bool = True) -> None:
 # ── Entry point ───────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    URL = "https://www.bible.com/bible/107/GEN.3.NET"
+    URL = "https://www.bible.com/bible/107/GEN.1.NET"
     print(f"Scraping {URL} ...\n")
     chapter = scrape(URL)
     print_structure(chapter, show_footnotes=True)
