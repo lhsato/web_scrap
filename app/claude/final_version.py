@@ -41,7 +41,6 @@ FOOTNOTE TYPES
 
 from __future__ import annotations
 
-from multiprocessing.util import debug
 import re
 from dataclasses import dataclass, field
 from typing import Literal
@@ -145,12 +144,17 @@ class Paragraph:
 
 @dataclass
 class Section:
-    """One heading + its paragraphs."""
-    heading: str | None
-    paragraphs: list[Paragraph] = field(default_factory=list)
+    """One heading + its paragraphs.
+    heading_footnotes holds any footnotes attached directly to the heading
+    (e.g. the psalm-intro note on Psalm 119).
+    """
+    heading:            str | None
+    heading_footnotes:  list[Footnote] = field(default_factory=list)
+    paragraphs:         list[Paragraph] = field(default_factory=list)
 
     def __repr__(self) -> str:
-        return f"Section(heading={self.heading!r}, paragraphs={len(self.paragraphs)})"
+        fn = f", {len(self.heading_footnotes)} fn" if self.heading_footnotes else ""
+        return f"Section(heading={self.heading!r}{fn}, paragraphs={len(self.paragraphs)})"
 
 
 @dataclass
@@ -351,6 +355,32 @@ def _parse_paragraph(p_tag: Tag) -> Paragraph:
     return paragraph
 
 
+# ── Heading parser ───────────────────────────────────────────────────────────
+
+def _parse_heading(tag: Tag) -> tuple[str, list[Footnote]]:
+    """
+    Parse a __heading div into (heading_text, footnotes).
+
+    Most headings are plain text, e.g. "The Creation of the World".
+    Some headings carry an ft span with a psalm intro note, e.g.:
+        "Psalm 119<span class='ft'>sn Psalm 119. The psalmist...</span>"
+    """
+    text_parts: list[str] = []
+    footnotes:  list[Footnote] = []
+
+    for child in tag.children:
+        if isinstance(child, NavigableString):
+            text_parts.append(str(child))
+        elif isinstance(child, Tag):
+            if CLS_FT in child.get("class", []):
+                footnotes.extend(_parse_ft_span(child))
+            else:
+                text_parts.append(child.get_text(" ", strip=False))
+
+    heading_text = re.sub(r"\s+", " ", "".join(text_parts)).strip()
+    return heading_text, footnotes
+
+
 # ── Public scrape function ────────────────────────────────────────────────────
 
 def scrape(url: str) -> ChapterPage:
@@ -376,11 +406,12 @@ def scrape(url: str) -> ChapterPage:
         class_=lambda c: c and (CLS_HEADING in c or CLS_P in c)
     )
     current_section: Section | None = None
-    # debug.showInlineValues off or on in settings can help see the current_section and paragraph being built in this loop
+
     for tag in content_tags:
         tag_classes = tag.get("class", [])
         if CLS_HEADING in tag_classes:
-            current_section = Section(heading=tag.get_text(strip=True))
+            heading_text, heading_fns = _parse_heading(tag)
+            current_section = Section(heading=heading_text, heading_footnotes=heading_fns)
             cp.sections.append(current_section)
         elif CLS_P in tag_classes:
             if current_section is None:
@@ -410,44 +441,29 @@ def print_structure(cp: ChapterPage, show_footnotes: bool = True) -> None:
     print("=" * 70)
     for s_i, section in enumerate(cp.sections, 1):
         print(f"\n-- Section {s_i}: {section.heading or '(no heading)'}")
+        if show_footnotes and section.heading_footnotes:
+            for fn in section.heading_footnotes:
+                print(f"   [HEADING {fn.type.upper()}] "
+                      f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")
         for p_i, para in enumerate(section.paragraphs, 1):
             print(f"   Paragraph {p_i}:")
-            # for verse in para.verses:
-            #     label = f"v{verse.number}" if verse.number is not None else "(line)"
-            #     print(f"     [{label}] {verse.plain_text[:80]}"
-            #           f"{'...' if len(verse.plain_text) > 80 else ''}")
-            #     if show_footnotes:
-            #         for chunk in verse.chunks:
-            #             for fn in chunk.footnotes:
-            #                 print(f"             [{fn.type.upper()}] "
-            #                       f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")
             for verse in para.verses:
-                print(f"     [v{verse.number if verse.number is not None else '(line)'}] "
-                    #   f"{verse.plain_text[:80]}{'...' if len(verse.plain_text) > 80 else ''}"
-                    f"{verse.plain_text}")
-                for chunk in verse.chunks:
-                    if chunk.footnotes:
-                        # print(f"       [chunk] {chunk.text[:60]}{'...' if len(chunk.text) > 60 else ''}")
-                        print(f"       [chunk] {chunk.text}")
+                label = f"v{verse.number}" if verse.number is not None else "(line)"
+                print(f"     [{label}] {verse.plain_text[:80]}"
+                      f"{'...' if len(verse.plain_text) > 80 else ''}")
+                if show_footnotes:
+                    for chunk in verse.chunks:
                         for fn in chunk.footnotes:
-                            print(f"                 [{fn.type.upper()}] "
-                                    # f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")   
-                                    f"{fn.text}")   
+                            print(f"             [{fn.type.upper()}] "
+                                  f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")
 
 
 # ── Entry point ───────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
     import sys
-
     URL = "https://www.bible.com/bible/107/GEN.1.NET"
     # URL = "https://www.bible.com/bible/107/PSA.119.NET"
-
-
-    print(f"Scraping {URL} ...\n")
-    chapter = scrape(URL)
-    print_structure(chapter, show_footnotes=True)
-
     with open("output.txt", "w", encoding="utf-8") as _f:
         sys.stdout = _f
         print(f"Scraping {URL} ...\n")
