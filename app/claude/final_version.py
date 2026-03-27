@@ -71,10 +71,6 @@ HEADERS = {
 # Note boundary: start-of-string OR after punctuation, then known prefix + space
 _NOTE_BOUNDARY = re.compile(r'(?:^|(?<=[.!?"\])])) *(tn|sn|tc)(?= )')
 
-# Sentence-ending punctuation used to find where a note body ends
-_PUNCT = re.compile(r'[.!?"\u201c\u201d\u2018\u2019\])]')
-# Sentence-ending punctuation for trailing text search (no quotes)
-_SENT_END = re.compile(r'[.!?]')
 
 
 
@@ -195,160 +191,127 @@ class ChapterPage:
         )
 
 
-# ── Note block parser ─────────────────────────────────────────────────────────
+# ── Note and paragraph parsers ──────────────────────────────────────────────
 
-def _split_note_block(block: str, is_last: bool) -> tuple[list[Footnote], str]:
+def _parse_ft_span(ft_tag: Tag) -> list[Footnote]:
     """
-    Parse one '#'-delimited note block into (footnotes, trailing_bible_text).
+    Parse one class="ft" span into one or more Footnote objects.
 
-    A block looks like:
-        "tn Note body.sn Another note body. trailing bible text"
+    A single span may contain multiple concatenated notes, e.g.:
+      "tn Note body.sn Another note."   (glued after punctuation)
+      "tn Note body. sn Another note."  (space-separated)
 
-    Rules:
-      - A new note starts at start-of-block OR after punctuation + known prefix.
-      - The note type is the first 2 characters (tn / sn / tc).
-      - For non-last blocks: trailing bible text after the final note's closing
-        punctuation is stripped and returned separately.
-      - Last block: no trailing bible text (everything is note body).
-
-    Bug fix: after isolating the trailing text, strip any leading punctuation
-    characters (e.g. the closing '"' from '"God of gods." created' becomes
-    'created' not '" created').
+    A new note starts at: start-of-string OR after punctuation [.!?")]
+    followed by a known 2-char prefix (tn / sn / tc) + space.
     """
-    block = block.strip()
-    positions = [(m.start(), m.group(1)) for m in _NOTE_BOUNDARY.finditer(block)]
+    raw = re.sub(r"\s+", " ", ft_tag.get_text(" ", strip=True)).strip()
+    positions = [(m.start(), m.group(1)) for m in _NOTE_BOUNDARY.finditer(raw)]
 
     if not positions:
-        # No known prefix — entire block is trailing bible text
-        return [], block
+        return [Footnote(type="unknown", text=raw)] if raw else []
 
     footnotes: list[Footnote] = []
     for idx, (pos, prefix) in enumerate(positions):
         body_start = pos + len(prefix) + 1
-        body_end   = positions[idx + 1][0] if idx + 1 < len(positions) else len(block)
-        body       = block[body_start:body_end].strip()
-        footnotes.append(Footnote(type=prefix, text=body))  # type: ignore[arg-type]
+        body_end   = positions[idx + 1][0] if idx + 1 < len(positions) else len(raw)
+        footnotes.append(Footnote(type=prefix, text=raw[body_start:body_end].strip()))  # type: ignore[arg-type]
+    return footnotes
 
-    # Strip trailing bible text from the last footnote body.
-    # Always extract if the trailing text starts with a verse number —
-    # a new verse can follow even the very last note block.
-    # For non-last blocks, also extract any other trailing bible text.
-    # We clean leading punctuation from 'after' before checking,
-    # so a closing quote like '"day"' is not mistaken for real trailing text.
-    trailing = ""
-    if footnotes:
-        last_fn = footnotes[-1]
-        for m in reversed(list(_SENT_END.finditer(last_fn.text))):
-            after = last_fn.text[m.end():].strip()
-            if not after:
-                continue
-            if re.match(r'^(tn|sn|tc) ', after):
-                continue   # next note prefix — not trailing text
-            # Clean leading punctuation before deciding if this is real trailing text
-            after_clean = re.sub(r'^[.!?"\u201c\u201d\u2018\u2019\])\s]+', '', after).strip()
-            if not after_clean:
-                continue   # only punctuation after this point — keep scanning
-            is_verse_start = bool(re.match(r'\d+\s', after_clean))
-            if is_verse_start or not is_last:
-                trailing = after_clean
-                last_fn.text = last_fn.text[:m.end()].strip()
-                break
-
-    return footnotes, trailing
-
-
-# ── Paragraph parser ──────────────────────────────────────────────────────────
 
 def _parse_paragraph(p_tag: Tag) -> Paragraph:
     """
-    Build a Paragraph from a __p div.
+    Build a Paragraph by walking the DOM children of a __p div in order.
 
-    Strategy:
-      1. Collect raw text preserving '#' markers from ft spans.
-      2. Split on '#' to get [bible_text_0, note_block_1, note_block_2, ...].
-      3. Each note block belongs to the preceding bible text fragment.
-      4. Trailing bible text inside a non-last block carries forward to the
-         next chunk.
-      5. Verse numbers (digits) at the start of bible text are detected and
-         used to split into separate Verse objects.
+    Children alternate between NavigableString (bible text) and ft spans
+    (footnotes). Walking them directly gives exact text-footnote interleaving
+    with no heuristic splitting needed:
+
+        NavigableString  "Then the man...moving about"  -> accumulate bible text
+        ft span          "tn Hitpael participle..."     -> flush as Chunk + footnotes
+        NavigableString  "in the orchard at the breezy" -> accumulate next bible text
+        ft span          "tn The expression..."         -> flush as next Chunk + footnotes
+        ...
+
+    Verse numbers embedded in bible text fragments (e.g. "...orchard. 9 But...")
+    are detected and used to split into separate Verse objects.
+
+    Both plain class="ft" and hashed variants like
+    "ChapterContent-module__cat7xG__ft" are recognised as footnote spans.
     """
-    # Collect raw text, marking ft spans with '#'
-    raw_parts: list[str] = []
-    for child in p_tag.children:
-        if isinstance(child, NavigableString):
-            raw_parts.append(str(child))
-        elif isinstance(child, Tag):
-            if CLS_FT in child.get("class", []):
-                raw_parts.append("#" + child.get_text(" ", strip=False))
-            else:
-                raw_parts.append(child.get_text(" ", strip=False))
-
-    raw = re.sub(r"\s+", " ", "".join(raw_parts)).strip()
-
-    # Split on '#'
-    parts      = raw.split("#")
-    note_parts = parts[1:]
-    chunks:    list[Chunk] = []
-    pending_text = parts[0].strip()
-
-    for i, part in enumerate(note_parts):
-        is_last  = (i == len(note_parts) - 1)
-        footnotes, trailing = _split_note_block(part.strip(), is_last)
-        chunks.append(Chunk(text=pending_text, footnotes=footnotes))
-        pending_text = trailing
-
-    if pending_text:
-        chunks.append(Chunk(text=pending_text, footnotes=[]))
-
-    # Group chunks into Verses by detecting verse numbers.
-    # A verse number can appear at the START of a chunk text or EMBEDDED
-    # mid-text (e.g. "...end of v6. 7 Then the eyes...").
-    # We use re.split to find ALL verse transitions within each chunk text.
-    paragraph = Paragraph()
+    paragraph    = Paragraph()
     current_verse: Verse | None = None
+    pending_text = ""
 
-    def emit_chunk(text: str, footnotes: list) -> None:
-        """Attach a Chunk to the current verse, creating one if needed."""
+    def _is_ft(tag: Tag) -> bool:
+        classes = tag.get("class", [])
+        return CLS_FT in classes or any("ft" in c for c in classes)
+
+    def new_verse(number: int) -> None:
+        nonlocal current_verse
+        if current_verse is not None and current_verse.chunks:
+            paragraph.verses.append(current_verse)
+        current_verse = Verse(number=number)
+
+    def emit_chunk(text: str, footnotes: list[Footnote]) -> None:
         nonlocal current_verse
         if current_verse is None:
             current_verse = Verse(number=None)
         if text or footnotes:
             current_verse.chunks.append(Chunk(text=text, footnotes=footnotes))
 
-    def new_verse(number: int) -> None:
-        """Save the current verse and start a new one."""
-        nonlocal current_verse
-        if current_verse is not None and current_verse.chunks:
-            paragraph.verses.append(current_verse)
-        current_verse = Verse(number=number)
-
     # Pattern: standalone digit(s) at start of string or after whitespace,
     # followed by a space — avoids splitting on "v.1", "Gen 1:1", etc.
     _VERSE_NUM = re.compile(r'(?:^|(?<=\s))(\d+)(?=\s)')
 
-    for chunk in chunks:
-        segments = _VERSE_NUM.split(chunk.text)
-        # re.split with one capturing group gives:
-        # [pre_text, digit, post_text, digit, post_text, ...]
+    def flush(footnotes: list[Footnote]) -> None:
+        """
+        Flush pending_text (with footnotes) into Chunk(s), splitting on any
+        embedded verse numbers so each verse gets its own Verse object.
+        """
+        nonlocal pending_text
+        text = re.sub(r"\s+", " ", pending_text).strip()
+        pending_text = ""
+
+        segments = _VERSE_NUM.split(text)
 
         if len(segments) == 1:
-            # No verse number in this chunk text
-            emit_chunk(chunk.text, chunk.footnotes)
-        else:
-            i = 0
-            while i < len(segments):
-                seg = segments[i].strip()
-                if i + 1 < len(segments) and re.fullmatch(r'\d+', segments[i + 1]):
-                    # seg = text before a verse number
-                    if seg:
-                        emit_chunk(seg, [])          # no footnotes on pre-number text
-                    new_verse(int(segments[i + 1]))
-                    i += 2
-                else:
-                    # Last segment — footnotes attach here
-                    emit_chunk(seg, chunk.footnotes)
-                    i += 1
+            emit_chunk(text, footnotes)
+            return
 
+        i = 0
+        while i < len(segments):
+            seg = segments[i].strip()
+            if i + 1 < len(segments) and re.fullmatch(r"\d+", segments[i + 1]):
+                if seg:
+                    emit_chunk(seg, [])          # text before a verse number — no footnotes
+                new_verse(int(segments[i + 1]))
+                i += 2
+            else:
+                emit_chunk(seg, footnotes)       # last segment — footnotes attach here
+                i += 1
+
+    # ── Walk children ────────────────────────────────────────────────────────
+    for child in p_tag.children:
+        if isinstance(child, Tag):
+            if _is_ft(child):
+                # ft span: flush accumulated text, attach these footnotes
+                flush(_parse_ft_span(child))
+            else:
+                inner = child.get_text(" ", strip=False)
+                raw_inner = re.sub(r"\s+", " ", inner).strip()
+                if re.fullmatch(r"\d+", raw_inner):    # bare verse-number span
+                    flush([])
+                    new_verse(int(raw_inner))
+                else:
+                    pending_text += inner
+        elif isinstance(child, NavigableString):
+            pending_text += str(child)
+
+    # Flush any trailing text after the last ft span
+    if pending_text.strip():
+        flush([])
+
+    # Append the final verse
     if current_verse is not None and current_verse.chunks:
         paragraph.verses.append(current_verse)
 
@@ -372,7 +335,11 @@ def _parse_heading(tag: Tag) -> tuple[str, list[Footnote]]:
         if isinstance(child, NavigableString):
             text_parts.append(str(child))
         elif isinstance(child, Tag):
-            if CLS_FT in child.get("class", []):
+            classes = child.get("class", [])
+            # The heading ft span may use a hashed class like
+            # "ChapterContent-module__cat7xG__ft" rather than plain "ft",
+            # so we check for substring "ft" in any class name.
+            if CLS_FT in classes or any("ft" in c for c in classes):
                 footnotes.extend(_parse_ft_span(child))
             else:
                 text_parts.append(child.get_text(" ", strip=False))
@@ -463,7 +430,6 @@ def print_structure(cp: ChapterPage, show_footnotes: bool = True) -> None:
 if __name__ == "__main__":
     import sys
     URL = "https://www.bible.com/bible/107/GEN.1.NET"
-    # URL = "https://www.bible.com/bible/107/PSA.119.NET"
     with open("output.txt", "w", encoding="utf-8") as _f:
         sys.stdout = _f
         print(f"Scraping {URL} ...\n")
