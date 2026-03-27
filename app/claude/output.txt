@@ -1,1195 +1,191 @@
-Scraping https://www.bible.com/bible/107/PSA.119.NET ...
+Scraping https://www.bible.com/bible/107/GEN.1.NET ...
 
 ======================================================================
-title       : Psalms 119
-book/ch/ver : PSA / 119 / NET
-url         : https://www.bible.com/bible/107/PSA.119.NET
-sections    : 2
-verses      : 376
-footnotes   : 214  (tn=211, sn=3, tc=0)
+title       : Genesis 1
+book/ch/ver : GEN / 1 / NET
+url         : https://www.bible.com/bible/107/GEN.1.NET
+sections    : 1
+verses      : 33
+footnotes   : 69  (tn=48, sn=20, tc=1)
 ======================================================================
 
--- Section 1: Psalm 119
-
--- Section 2: (no heading)
-   [SN] Psalm 119. The psalmist celebrates God’s law and the guidance it provides his people. He expresses his desire to know God’s law thoroughly so that he might experience the blessings that come to those who obey it. This lengthy psalm exhibits an elaborate acrostic pattern. The psalm is divided into twenty-two sections (corresponding to the letters of the Hebrew alphabet), each of which is comprised of eight verses. Each of the verses in the first section (vv. 1-8) begins with the letter alef (א), the first letter of the Hebrew alphabet. This pattern continues throughout the psalm as each new section highlights a successive letter of the alphabet. Each verse in section two (vv. 9-16) begins with the second letter of the alphabet, each verse in section three (vv. 17-24) with the third letter, etc. This rigid pattern creates a sense of order and completeness and may have facilitated memorization.
+-- Section 1: The Creation of the World
    Paragraph 1:
-     [v(line)] א (Alef)
+     [v1] In the beginning# God# created# the heavens and the earth.#
+       [chunk] In the beginning#
+                 [TN] The translation assumes that the form translated “beginning” is in the absolute state rather than the construct (“in the beginning of,” or “when God created”). In other words, the clause in v. 1 is a main clause, v. 2 has three clauses that are descriptive and supply background information, and v. 3 begins the narrative sequence proper. The referent of the word “beginning” has to be defined from the context since there is no beginning or ending with God.
+                 [SN] In the beginning. The verse refers to the beginning of the world as we know it; it affirms that it is entirely the product of the creation of God. But there are two ways that this verse can be interpreted: (1) It may be taken to refer to the original act of creation with the rest of the events on the days of creation completing it. This would mean that the disjunctive clauses of v. 2 break the sequence of the creative work of the first day. (2) It may be taken as a summary statement of what the chapter will record, that is, vv. 3-31 are about God’s creating the world as we know it. If the first view is adopted, then we have a reference here to original creation; if the second view is taken, then Genesis itself does not account for the original creation of matter. To follow this view does not deny that the Bible teaches that God created everything out of nothing (cf. John 1:3) – it simply says that Genesis is not making that affirmation. This second view presupposes the existence of pre-existent matter, when God said, “Let there be light.” The first view includes the description of the primordial state as part of the events of day one. The following narrative strongly favors the second view, for the “heavens/sky” did not exist prior to the second day of creation (see v. 8) and “earth/dry land” did not exist, at least as we know it, prior to the third day of creation (see v. 10).
+       [chunk] God#
+                 [SN] God. This frequently used Hebrew name for God (אֱלֹהִים,’elohim ) is a plural form. When it refers to the one true God, the singular verb is normally used, as here. The plural form indicates majesty; the name stresses God’s sovereignty and incomparability – he is the “God of gods.”
+       [chunk] created#
+                 [TN] The English verb “create” captures well the meaning of the Hebrew term in this context. The verb בָּרָא (bara’) always describes the divine activity of fashioning something new, fresh, and perfect. The verb does not necessarily describe creation out of nothing (see, for example, v. 27, where it refers to the creation of man); it often stresses forming anew, reforming, renewing (see Ps 51:10; Isa 43:15, 65:17).
+       [chunk] the heavens and the earth.#
+                 [TN] Or “the entire universe”; or “the sky and the dry land.” This phrase is often interpreted as a merism, referring to the entire ordered universe, including the heavens and the earth and everything in them. The “heavens and the earth” were completed in seven days (see Gen 2:1) and are characterized by fixed laws (see Jer 33:25). “Heavens” refers specifically to the sky, created on the second day (see v. 8), while “earth” refers specifically to the dry land, created on the third day (see v. 10). Both are distinct from the sea/seas (see v. 10 and Exod 20:11).
    Paragraph 2:
-     [v1] How blessed are those whose actions are blameless,#
-       [chunk] How blessed are those whose actions are blameless,#
-                 [TN] Heb “[Oh] the happiness of those who are blameless of way.”
+     [v2] Now# the earth# was without shape and empty,# and darkness# was over the surface of the watery deep,# but the Spirit of God# was moving# over the surface# of the water.#
+       [chunk] Now#
+                 [TN] The disjunctive clause (conjunction + subject + verb) at the beginning of v. 2 gives background information for the following narrative, explaining the state of things when “God said…” (v. 3). Verse one is a title to the chapter, v. 2 provides information about the state of things when God spoke, and v. 3 begins the narrative per se with the typical narrative construction (vav [ו] consecutive followed by the prefixed verbal form). (This literary structure is paralleled in the second portion of the book: Gen 2:4 provides the title or summary of what follows, 2:5-6 use disjunctive clause structures to give background information for the following narrative, and 2:7 begins the narrative with the vav consecutive attached to a prefixed verbal form.) Some translate 1:2a “and the earth became,” arguing that v. 1 describes the original creation of the earth, while v. 2 refers to a judgment that reduced it to a chaotic condition. Verses 3ff. then describe the re-creation of the earth. However, the disjunctive clause at the beginning of v. 2 cannot be translated as if it were relating the next event in a sequence. If v. 2 were sequential to v. 1, the author would have used the vav consecutive followed by a prefixed verbal form and the subject.
+       [chunk] the earth#
+                 [TN] That is, what we now call “the earth.” The creation of the earth as we know it is described in vv. 9-10. Prior to this the substance which became the earth (= dry land) lay dormant under the water.
+       [chunk] was without shape and empty,#
+                 [TN] Traditional translations have followed a more literal rendering of “waste and void.” The words describe a condition that is without form and empty. What we now know as “the earth” was actually an unfilled mass covered by water and darkness. Later תֹהוּ (tohu) and בֹּהוּ (bohu), when used in proximity, describe a situation resulting from judgment (Isa 34:11; Jer 4:23). Both prophets may be picturing judgment as the reversal of creation in which God’s judgment causes the world to revert to its primordial condition. This later use of the terms has led some to conclude that Gen 1:2 presupposes the judgment of a prior world, but it is unsound method to read the later application of the imagery (in a context of judgment) back into Gen 1:2.
+       [chunk] and darkness#
+                 [SN] Darkness. The Hebrew word simply means “darkness,” but in the Bible it has come to symbolize what opposes God, such as judgment (Exod 10:21), death (Ps 88:13), oppression (Isa 9:1), the wicked (1 Sam 2:9) and in general, sin. In Isa 45:7 it parallels “evil.” It is a fitting cover for the primeval waste, but it prepares the reader for the fact that God is about to reveal himself through his works.
+       [chunk] was over the surface of the watery deep,#
+                 [TN] The Hebrew term תְּהוֹם (tÿhom, “deep”) refers to the watery deep, the salty ocean – especially the primeval ocean that surrounds and underlies the earth (see Gen 7:11).
+                 [SN] The watery deep. In the Babylonian account of creation Marduk killed the goddess Tiamat (the salty sea) and used her carcass to create heaven and earth. The form of the Hebrew word for “deep” is distinct enough from the name “Tiamat” to deny direct borrowing; however, it is possible that there is a polemical stress here. Ancient Israel does not see the ocean as a powerful deity to be destroyed in creation, only a force of nature that can be controlled by God.
+       [chunk] but the Spirit of God#
+                 [TN] The traditional rendering “Spirit of God” is preserved here, as opposed to a translation like “wind from/breath of God” (cf. NRSV) or “mighty wind” (cf. NEB), taking the word “God” to represent the superlative. Elsewhere in the OT the phrase refers consistently to the divine spirit that empowers and energizes individuals (see Gen 41:38; Exod 31:3; 35:31; Num 24:2; 1 Sam 10:10; 11:6; 19:20, 23; Ezek 11:24; 2 Chr 15:1; 24:20).
+       [chunk] was moving#
+                 [TN] The Hebrew verb has been translated “hovering” or “moving” (as a bird over her young, see Deut 32:11). The Syriac cognate term means “to brood over; to incubate.” How much of that sense might be attached here is hard to say, but the verb does depict the presence of the Spirit of God moving about mysteriously over the waters, presumably preparing for the acts of creation to follow. If one reads “mighty wind” (cf. NEB) then the verse describes how the powerful wind begins to blow in preparation for the creative act described in vv. 9-10. (God also used a wind to drive back the flood waters in Noah’s day. See Gen 8:1.)
+       [chunk] over the surface#
+                 [TN] Heb “face.”
+       [chunk] of the water.#
+                 [SN] The water. The text deliberately changes now from the term for the watery deep to the general word for water. The arena is now the life-giving water and not the chaotic abyss-like deep. The change may be merely stylistic, but it may also carry some significance. The deep carries with it the sense of the abyss, chaos, darkness – in short, that which is not good for life.
+     [v3] God said,# “Let there be# light.”# And there was light!
+       [chunk] God said,#
+                 [TN] The prefixed verb form with the vav (ו) consecutive introduces the narrative sequence. Ten times in the chapter the decree of God in creation will be so expressed. For the power of the divine word in creation, see Ps 33:9, John 1:1-3, 1 Cor 8:6, and Col 1:16.
+                 [SN] God said. By speaking, God brings the world into existence. The efficacious nature of the word of the Lord is a prominent theme in this chapter. It introduces the Law, the words and commandments from the Lord that must be obeyed. The ten decrees of God in this chapter anticipate the ten words in the Decalogue (Exod 20:2-17).
+       [chunk] “Let there be#
+                 [TN] “Let there be” is the short jussive form of the verb “to be”; the following expression “and there was” is the short preterite form of the same verb. As such, יְהִי (yÿhi) and וַיְהִי (vayÿhi) form a profound wordplay to express both the calling into existence and the complete fulfillment of the divine word.
+       [chunk] light.”#
+                 [SN] Light. The Hebrew word simply means “light,” but it is used often in scripture to convey the ideas of salvation, joy, knowledge, righteousness, and life. In this context one cannot ignore those connotations, for it is the antithesis of the darkness. The first thing God does is correct the darkness; without the light there is only chaos.
+     [v4] God saw# that the light was good,# so God separated# the light from the darkness.
+       [chunk] God saw#
+                 [TN] Heb “And God saw the light, that it was good.” The verb “saw” in this passage carries the meaning “reflected on,” “surveyed,” “concluded,” “noted.” It is a description of reflection of the mind – it is God’s opinion.
+       [chunk] that the light was good,#
+                 [TN] The Hebrew word טוֹב (tov) in this context signifies whatever enhances, promotes, produces, or is conducive for life. It is the light that God considers “good,” not the darkness. Whatever is conducive to life in God’s creation is good, for God himself is good, and that goodness is reflected in all of his works.
+       [chunk] so God separated#
+                 [TN] The verb “separate, divide” here explains how God used the light to dispel the darkness. It did not do away with the darkness completely, but made a separation. The light came alongside the darkness, but they are mutually exclusive – a theme that will be developed in the Gospel of John (cf. John 1:5).
+                 [SN] The idea of separation is critical to this chapter. God separated light from darkness, upper water from lower water, day from night, etc. The verb is important to the Law in general. In Leviticus God separates between clean and unclean, holy and profane (Lev 10:10, 11:47 and 20:24); in Exodus God separates the Holy Place from the Most Holy Place (Exod 26:33). There is a preference for the light over the darkness, just as there will be a preference for the upper waters, the rain water which is conducive to life, over the sea water.
+     [v5] God called# the light “day” and the darkness# “night.” There was evening, and there was morning, marking the first day.#
+       [chunk] God called#
+                 [TN] Heb “he called to,” meaning “he named.”sn God called. Seven times in this chapter naming or blessing follows some act of creation. There is clearly a point being made beyond the obvious idea of naming. In the Babylonian creation story Enuma Elish, naming is equal to creating. In the Bible the act of naming, like creating, can be an indication of sovereignty (see 2 Kgs 23:34). In this verse God is sovereign even over the darkness.
+       [chunk] the light “day” and the darkness#
+                 [TN] Heb “and the darkness he called night.” The words “he called” have not been repeated in the translation for stylistic reasons.
+       [chunk] “night.” There was evening, and there was morning, marking t...
+                 [TN] Another option is to translate, “Evening came, and then morning came.” This formula closes the six days of creation. It seems to follow the Jewish order of reckoning time: from evening to morning. Day one started with the dark, continued through the creation of light, and ended with nightfall. Another alternative would be to translate, “There was night and then there was day, one day.”sn The first day. The exegetical evidence suggests the word “day” in this chapter refers to a literal twenty-four hour day. It is true that the word can refer to a longer period of time (see Isa 61:2, or the idiom in 2:4, “in the day,” that is, “when”). But this chapter uses “day,” “night,” “morning,” “evening,” “years,” and “seasons.” Consistency would require sorting out how all these terms could be used to express ages. Also, when the Hebrew word יוֹם (yom) is used with a numerical adjective, it refers to a literal day. Furthermore, the commandment to keep the sabbath clearly favors this interpretation. One is to work for six days and then rest on the seventh, just as God did when he worked at creation.
    Paragraph 3:
-     [v(line)] who obey# the law of the Lord.
-       [chunk] who obey#
-                 [TN] Heb “walk in.”
+     [v6] God said, “Let there be an expanse# in the midst of the waters and let it separate water# from water.
+       [chunk] God said, “Let there be an expanse#
+                 [TN] The Hebrew word refers to an expanse of air pressure between the surface of the sea and the clouds, separating water below from water above. In v. 8 it is called “sky.”sn An expanse. In the poetic texts the writers envision, among other things, something rather strong and shiny, no doubt influencing the traditional translation “firmament” (cf. NRSV “dome”). Job 37:18 refers to the skies poured out like a molten mirror. Dan 12:3 and Ezek 1:22 portray it as shiny. The sky or atmosphere may have seemed like a glass dome. For a detailed study of the Hebrew conception of the heavens and sky, see L. I. J. Stadelmann, The Hebrew Conception of the World (AnBib), 37-60.
+       [chunk] in the midst of the waters and let it separate water#
+                 [TN] Heb “the waters from the waters.”
+     [v7] So God made the expanse and separated the water under the expanse from the water above it.# It was so.#
+       [chunk] So God made the expanse and separated the water under the ex...
+                 [TN] Heb “the expanse.”
+       [chunk] It was so.#
+                 [TN] This statement indicates that it happened the way God designed it, underscoring the connection between word and event.
+     [v8] God called the expanse “sky.”# There was evening, and there was morning, a second day.
+       [chunk] God called the expanse “sky.”#
+                 [TN] Though the Hebrew word can mean “heaven,” it refers in this context to “the sky.”
    Paragraph 4:
-     [v2] How blessed are those who observe his rules,
+     [v9] God said, “Let the water under the sky be gathered to one place# and let dry ground appear.”# It was so.
+       [chunk] God said, “Let the water under the sky be gathered to one pl...
+                 [SN] Let the water…be gathered to one place. In the beginning the water covered the whole earth; now the water was to be restricted to an area to form the ocean. The picture is one of the dry land as an island with the sea surrounding it. Again the sovereignty of God is revealed. Whereas the pagans saw the sea as a force to be reckoned with, God controls the boundaries of the sea. And in the judgment at the flood he will blur the boundaries so that chaos returns.
+       [chunk] and let dry ground appear.”#
+                 [TN] When the waters are collected to one place, dry land emerges above the surface of the receding water.
+     [v10] God called the dry ground “land”# and the gathered waters he called “seas.” God saw that it was good.
+       [chunk] God called the dry ground “land”#
+                 [TN] Heb “earth,” but here the term refers to the dry ground as opposed to the sea.
    Paragraph 5:
-     [v(line)] and seek him with all their heart,
+     [v11] God said, “Let the land produce vegetation:# plants yielding seeds according to their kinds,# and# trees bearing fruit with seed in it according to their kinds.” It was so.
+       [chunk] God said, “Let the land produce vegetation:#
+                 [TN] The Hebrew construction employs a cognate accusative, where the nominal object (“vegetation”) derives from the verbal root employed. It stresses the abundant productivity that God created.
+                 [SN] Vegetation. The Hebrew word translated “vegetation” (דֶּשֶׁא, deshe’) normally means “grass,” but here it probably refers more generally to vegetation that includes many of the plants and trees. In the verse the plants and the trees are qualified as self-perpetuating with seeds, but not the word “vegetation,” indicating it is the general term and the other two terms are sub-categories of it. Moreover, in vv. 29 and 30 the word vegetation/grass does not appear. The Samaritan Pentateuch adds an “and” before the fruit trees, indicating it saw the arrangement as bipartite (The Samaritan Pentateuch tends to eliminate asyndetic constructions).
+       [chunk] plants yielding seeds according to their kinds,#
+                 [SN] After their kinds. The Hebrew word translated “kind” (מִין, min) indicates again that God was concerned with defining and dividing time, space, and species. The point is that creation was with order, as opposed to chaos. And what God created and distinguished with boundaries was not to be confused (see Lev 19:19 and Deut 22:9-11).
+       [chunk] and#
+                 [TN] The conjunction “and” is not in the Hebrew text, but has been supplied in the translation to clarify the relationship of the clauses.
+     [v12] The land produced vegetation – plants yielding seeds according to their kinds, and trees bearing fruit with seed in it according to their kinds. God saw that it was good.
+     [v13] There was evening, and there was morning, a third day.
    Paragraph 6:
-     [v3] who, moreover, do no wrong,
+     [v14] God said, “Let there be lights# in the expanse# of the sky to separate the day from the night, and let them be signs# to indicate seasons and days and years,
+       [chunk] God said, “Let there be lights#
+                 [SN] Let there be lights. Light itself was created before the light-bearers. The order would not seem strange to the ancient Hebrew mind that did not automatically link daylight with the sun (note that dawn and dusk appear to have light without the sun).
+       [chunk] in the expanse#
+                 [TN] The language describing the cosmos, which reflects a prescientific view of the world, must be interpreted as phenomenal, describing what appears to be the case. The sun and the moon are not in the sky (below the clouds), but from the viewpoint of a person standing on the earth, they appear that way. Even today we use similar phenomenological expressions, such as “the sun is rising” or “the stars in the sky.”
+       [chunk] of the sky to separate the day from the night, and let them ...
+                 [TN] The text has “for signs and for seasons and for days and years.” It seems likely from the meanings of the words involved that “signs” is the main idea, followed by two categories, “seasons” and “days and years.” This is the simplest explanation, and one that matches vv. 11-13. It could even be rendered “signs for the fixed seasons, that is [explicative vav (ו)] days and years.”sn Let them be for signs. The point is that the sun and the moon were important to fix the days for the seasonal celebrations for the worshiping community.
+     [v15] and let them serve as lights in the expanse of the sky to give light on the earth.” It was so.
+     [v16] God made two great lights# – the greater light to rule over the day and the lesser light to rule over the night. He made the stars also.#
+       [chunk] God made two great lights#
+                 [SN] Two great lights. The text goes to great length to discuss the creation of these lights, suggesting that the subject was very important to the ancients. Since these “lights” were considered deities in the ancient world, the section serves as a strong polemic (see G. Hasel, “The Polemical Nature of the Genesis Cosmology,” EvQ 46 [1974]: 81-102). The Book of Genesis is affirming they are created entities, not deities. To underscore this the text does not even give them names. If used here, the usual names for the sun and moon [Shemesh and Yarih, respectively] might have carried pagan connotations, so they are simply described as greater and lesser lights. Moreover, they serve in the capacity that God gives them, which would not be the normal function the pagans ascribed to them. They merely divide, govern, and give light in God’s creation.
+       [chunk] – the greater light to rule over the day and the lesser ligh...
+                 [TN] Heb “and the stars.” Now the term “stars” is added as a third object of the verb “made.” Perhaps the language is phenomenological, meaning that the stars appeared in the sky from this time forward.
+     [v17] God placed the lights# in the expanse of the sky to shine on the earth,
+       [chunk] God placed the lights#
+                 [TN] Heb “them”; the referent (the lights mentioned in the preceding verses) has been specified in the translation for clarity.
+     [v18] to preside over the day and the night, and to separate the light from the darkness.# God saw that it was good.
+       [chunk] to preside over the day and the night, and to separate the l...
+                 [SN] In days one to three there is a naming by God; in days five and six there is a blessing by God. But on day four there is neither. It could be a mere stylistic variation. But it could also be a deliberate design to avoid naming “sun” and “moon” or promoting them beyond what they are, things that God made to serve in his creation.
+     [v19] There was evening, and there was morning, a fourth day.
    Paragraph 7:
-     [v(line)] but follow in his footsteps.#
-       [chunk] but follow in his footsteps.#
-                 [TN] Heb “walk in his ways.”
+     [v20] God said, “Let the water swarm with swarms# of living creatures and let birds fly# above the earth across the expanse of the sky.”
+       [chunk] God said, “Let the water swarm with swarms#
+                 [TN] The Hebrew text again uses a cognate construction (“swarm with swarms”) to emphasize the abundant fertility. The idea of the verb is one of swift movement back and forth, literally swarming. This verb is used in Exod 1:7 to describe the rapid growth of the Israelite population in bondage.
+       [chunk] of living creatures and let birds fly#
+                 [TN] The Hebrew text uses the Polel form of the verb instead of the simple Qal; it stresses a swarming flight again to underscore the abundant fruitfulness.
+     [v21] God created the great sea creatures# and every living and moving thing with which the water swarmed, according to their kinds, and every winged bird according to its kind. God saw that it was good.
+       [chunk] God created the great sea creatures#
+                 [TN] For the first time in the narrative proper the verb “create” (בָּרָא, bara’) appears. (It is used in the summary statement of v. 1.) The author wishes to underscore that these creatures – even the great ones – are part of God’s perfect creation. The Hebrew term תַנִּינִם (tanninim) is used for snakes (Exod 7:9), crocodiles (Ezek 29:3), or other powerful animals (Jer 51:34). In Isa 27:1 the word is used to describe a mythological sea creature that symbolizes God’s enemies.
+     [v22] God blessed them# and said, “Be fruitful and multiply and fill the water in the seas, and let the birds multiply on the earth.”#
+       [chunk] God blessed them#
+                 [TN] While the translation “blessed” has been retained here for the sake of simplicity, it would be most helpful to paraphrase it as “God endowed them with fruitfulness” or something similar, for here it refers to God’s giving the animals the capacity to reproduce. The expression “blessed” needs clarification in its different contexts, for it is one of the unifying themes of the Book of Genesis. The divine blessing occurs after works of creation and is intended to continue that work – the word of blessing guarantees success. The word means “to enrich; to endow,” and the most visible evidence of that enrichment is productivity or fruitfulness. See C. Westermann, Blessing in the Bible and the Life of the Church (OBT).
+       [chunk] and said, “Be fruitful and multiply and fill the water in th...
+                 [SN] The instruction God gives to creation is properly a fuller expression of the statement just made (“God blessed them”), that he enriched them with the ability to reproduce. It is not saying that these were rational creatures who heard and obeyed the word; rather, it stresses that fruitfulness in the animal world is a result of the divine decree and not of some pagan cultic ritual for fruitfulness. The repeated emphasis of “be fruitful – multiply – fill” adds to this abundance God has given to life. The meaning is underscored by the similar sounds: בָּרָךְ (barakh) with בָּרָא (bara’), and פָּרָה (parah) with רָבָה (ravah).
+     [v23] There was evening, and there was morning, a fifth day.
    Paragraph 8:
-     [v4] You demand that your precepts
+     [v24] God said, “Let the land produce living creatures according to their kinds: cattle, creeping things, and wild animals, each according to its kind.”# It was so.
+       [chunk] God said, “Let the land produce living creatures according t...
+                 [TN] There are three groups of land animals here: the cattle or livestock (mostly domesticated), things that creep or move close to the ground (such as reptiles or rodents), and the wild animals (all animals of the field). The three terms are general classifications without specific details.
+     [v25] God made the wild animals according to their kinds, the cattle according to their kinds, and all the creatures that creep along the ground according to their kinds. God saw that it was good.
    Paragraph 9:
-     [v(line)] be carefully kept.#
-       [chunk] be carefully kept.#
-                 [TN] Heb “you, you commanded your precepts, to keep, very much.”
+     [v26] Then God said, “Let us make# humankind# in our image, after our likeness,# so they may rule# over the fish of the sea and the birds of the air, over the cattle, and over all the earth,# and over all the creatures that move# on the earth.”
+       [chunk] Then God said, “Let us make#
+                 [SN] The plural form of the verb has been the subject of much discussion through the years, and not surprisingly several suggestions have been put forward. Many Christian theologians interpret it as an early hint of plurality within the Godhead, but this view imposes later trinitarian concepts on the ancient text. Some have suggested the plural verb indicates majesty, but the plural of majesty is not used with verbs. C. Westermann (Genesis, 1:145) argues for a plural of “deliberation” here, but his proposed examples of this use (2 Sam 24:14; Isa 6:8) do not actually support his theory. In 2 Sam 24:14 David uses the plural as representative of all Israel, and in Isa 6:8 the Lord speaks on behalf of his heavenly court. In its ancient Israelite context the plural is most naturally understood as referring to God and his heavenly court (see 1 Kgs 22:19-22; Job 1:6-12; 2:1-6; Isa 6:1-8). (The most well-known members of this court are God’s messengers, or angels. In Gen 3:5 the serpent may refer to this group as “gods/divine beings.” See the note on the word “evil” in 3:5.) If this is the case, God invites the heavenly court to participate in the creation of humankind (perhaps in the role of offering praise, see Job 38:7), but he himself is the one who does the actual creative work (v. 27). Of course, this view does assume that the members of the heavenly court possess the divine “image” in some way. Since the image is closely associated with rulership, perhaps they share the divine image in that they, together with God and under his royal authority, are the executive authority over the world.
+       [chunk] humankind#
+                 [TN] The Hebrew word is אָדָם (’adam), which can sometimes refer to man, as opposed to woman. The term refers here to humankind, comprised of male and female. The singular is clearly collective (see the plural verb, “[that] they may rule” in v. 26b) and the referent is defined specifically as “male and female” in v. 27. Usage elsewhere in Gen 1-11 supports this as well. In 5:2 we read: “Male and female he created them, and he blessed them and called their name ‘humankind’ (אָדָם).” The noun also refers to humankind in 6:1, 5-7 and in 9:5-6.
+       [chunk] in our image, after our likeness,#
+                 [TN] The two prepositions translated “in” and “according to” have overlapping fields of meaning and in this context seem to be virtually equivalent. In 5:3 they are reversed with the two words. The word צֶלֶם (tselem, “image”) is used frequently of statues, models, and images – replicas (see D. J. A. Clines, “The Etymology of Hebrew selem,” JNSL 3 [1974]: 19-25). The word דְּמוּת (dÿmut, “likeness”) is an abstract noun; its verbal root means “to be like; to resemble.” In the Book of Genesis the two terms describe human beings who in some way reflect the form and the function of the creator. The form is more likely stressing the spiritual rather than the physical. The “image of God” would be the God-given mental and spiritual capacities that enable people to relate to God and to serve him by ruling over the created order as his earthly vice-regents.
+                 [SN] In our image, after our likeness. Similar language is used in the instructions for building the tabernacle. Moses was told to make it “according to the pattern” he was shown on the mount (Exod 25:9, 10). Was he shown a form, a replica, of the spiritual sanctuary in the heavenly places? In any case, what was produced on earth functioned as the heavenly sanctuary does, but with limitations.
+       [chunk] so they may rule#
+                 [TN] Following the cohortative (“let us make”), the prefixed verb form with vav (ו) conjunctive indicates purpose/result (see Gen 19:20; 34:23; 2 Sam 3:21). God’s purpose in giving humankind his image is that they might rule the created order on behalf of the heavenly king and his royal court. So the divine image, however it is defined, gives humankind the capacity and/or authority to rule over creation.
+       [chunk] over the fish of the sea and the birds of the air, over the ...
+                 [TC] The MT reads “earth”; the Syriac reads “wild animals” (cf. NRSV).
+       [chunk] and over all the creatures that move#
+                 [TN] Heb “creep” (also in v. 28).
    Paragraph 10:
-     [v5] If only I were predisposed#
-       [chunk] If only I were predisposed#
-                 [TN] Heb “if only my ways were established.”
+     [v27] God created humankind# in his own image,
+       [chunk] God created humankind#
+                 [TN] The Hebrew text has the article prefixed to the noun (הָאָדָם, ha’adam). The article does not distinguish man from woman here (“the man” as opposed to “the woman”), but rather indicates previous reference (see v. 26, where the noun appears without the article). It has the same function as English “the aforementioned.”
    Paragraph 11:
-     [v(line)] to keep your statutes!
+     [v(line)] in the image of God he created them,#
+       [chunk] in the image of God he created them,#
+                 [TN] The third person suffix on the particle אֵת (’et) is singular here, but collective.
    Paragraph 12:
-     [v6] Then I would not be ashamed,
+     [v(line)] male and female he created them.#
+       [chunk] male and female he created them.#
+                 [SN] The distinction of “humankind” as “male” and “female” is another point of separation in God’s creation. There is no possibility that the verse is teaching that humans were first androgynous (having both male and female physical characteristics) and afterward were separated. The mention of male and female prepares for the blessing to follow.
    Paragraph 13:
-     [v(line)] if# I were focused on# all your commands.
-       [chunk] if#
-                 [TN] Or “when.”
-       [chunk] I were focused on#
-                 [TN] Heb “I gaze at.”
+     [v28] God blessed# them and said# to them, “Be fruitful and multiply! Fill the earth and subdue it!# Rule over the fish of the sea and the birds of the air and every creature that moves on the ground.”#
+       [chunk] God blessed#
+                 [TN] As in v. 22 the verb “bless” here means “to endow with the capacity to reproduce and be fruitful,” as the following context indicates. As in v. 22, the statement directly precedes the command “be fruitful and multiply.” The verb carries this same nuance in Gen 17:16 (where God’s blessing of Sarai imparts to her the capacity to bear a child); Gen 48:16 (where God’s blessing of Joseph’s sons is closely associated with their having numerous descendants); and Deut 7:13 (where God’s blessing is associated with fertility in general, including numerous descendants). See also Gen 49:25 (where Jacob uses the noun derivative in referring to “blessings of the breast and womb,” an obvious reference to fertility) and Gen 27:27 (where the verb is used of a field to which God has given the capacity to produce vegetation).
+       [chunk] them and said#
+                 [TN] Heb “and God said.” For stylistic reasons “God” has not been repeated here in the translation.
+       [chunk] to them, “Be fruitful and multiply! Fill the earth and subdu...
+                 [TN] Elsewhere the Hebrew verb translated “subdue” means “to enslave” (2 Chr 28:10; Neh 5:5; Jer 34:11, 16), “to conquer,” (Num 32:22, 29; Josh 18:1; 2 Sam 8:11; 1 Chr 22:18; Zech 9:13; and probably Mic 7:19), and “to assault sexually” (Esth 7:8). None of these nuances adequately meets the demands of this context, for humankind is not viewed as having an adversarial relationship with the world. The general meaning of the verb appears to be “to bring under one’s control for one’s advantage.” In Gen 1:28 one might paraphrase it as follows: “harness its potential and use its resources for your benefit.” In an ancient Israelite context this would suggest cultivating its fields, mining its mineral riches, using its trees for construction, and domesticating its animals.
+       [chunk] Rule over the fish of the sea and the birds of the air and e...
+                 [SN] The several imperatives addressed to both males and females together (plural imperative forms) actually form two commands: reproduce and rule. God’s word is not merely a form of blessing, but is now addressed to them personally; this is a distinct emphasis with the creation of human beings. But with the blessing comes the ability to be fruitful and to rule. In procreation they will share in the divine work of creating human life and passing on the divine image (see 5:1-3); in ruling they will serve as God’s vice-regents on earth. They together, the human race collectively, have the responsibility of seeing to the welfare of that which is put under them and the privilege of using it for their benefit.
+     [v29] Then God said, “I now# give you every seed-bearing plant on the face of the entire earth and every tree that has fruit with seed in it. They will be yours for food.#
+       [chunk] Then God said, “I now#
+                 [TN] The text uses הִנֵּה (hinneh), often archaically translated “behold.” It is often used to express the dramatic present, the immediacy of an event – “Look, this is what I am doing!”
+       [chunk] give you every seed-bearing plant on the face of the entire ...
+                 [SN] G. J. Wenham (Genesis [WBC], 1:34) points out that there is nothing in the passage that prohibits the man and the woman from eating meat. He suggests that eating meat came after the fall. Gen 9:3 may then ratify the postfall practice of eating meat rather than inaugurate the practice, as is often understood.
+     [v30] And to all the animals of the earth, and to every bird of the air, and to all the creatures that move on the ground – everything that has the breath of life in it – I give# every green plant for food.” It was so.
+       [chunk] And to all the animals of the earth, and to every bird of th...
+                 [TN] The phrase “I give” is not in the Hebrew text but has been supplied in the translation for clarification.
    Paragraph 14:
-     [v7] I will give you sincere thanks,#
-       [chunk] I will give you sincere thanks,#
-                 [TN] Heb “I will give you thanks with an upright heart.”
-   Paragraph 15:
-     [v(line)] when I learn your just regulations.
-   Paragraph 16:
-     [v8] I will keep your statutes.
-   Paragraph 17:
-     [v(line)] Do not completely abandon me!#
-       [chunk] Do not completely abandon me!#
-                 [TN] Heb “do not abandon me to excess.” For other uses of the phrase עַד מְאֹד (’ad mÿ’od,...
-   Paragraph 18:
-     [v(line)] ב ( Bet )
-   Paragraph 19:
-     [v9] How can a young person# maintain a pure life?#
-       [chunk] How can a young person#
-                 [TN] Heb “young man.” Hebrew wisdom literature often assumes and reflects the male-oriente...
-       [chunk] maintain a pure life?#
-                 [TN] Heb “purify his path.”
-   Paragraph 20:
-     [v(line)] By guarding it according to your instructions!#
-       [chunk] By guarding it according to your instructions!#
-                 [TN] Heb “by keeping according to your word.” Many medieval Hebrew mss as well as the LXX ...
-   Paragraph 21:
-     [v10] With all my heart I seek you.
-   Paragraph 22:
-     [v(line)] Do not allow me to stray from your commands!
-   Paragraph 23:
-     [v11] In my heart I store up# your words,#
-       [chunk] In my heart I store up#
-                 [TN] Or “hide.”
-       [chunk] your words,#
-                 [TN] Heb “your word.” Some medieval Hebrew mss as well as the LXX read the plural, “your w...
-   Paragraph 24:
-     [v(line)] so I might not sin against you.
-   Paragraph 25:
-     [v12] You deserve praise,# O Lord!
-       [chunk] You deserve praise,#
-                 [TN] Heb “[are] blessed.”
-   Paragraph 26:
-     [v(line)] Teach me your statutes!
-   Paragraph 27:
-     [v13] With my lips I proclaim
-   Paragraph 28:
-     [v(line)] all the regulations you have revealed.#
-       [chunk] all the regulations you have revealed.#
-                 [TN] Heb “of your mouth.”
-   Paragraph 29:
-     [v14] I rejoice in the lifestyle prescribed by your rules#
-       [chunk] I rejoice in the lifestyle prescribed by your rules#
-                 [TN] Heb “in the way of your rules.”
-   Paragraph 30:
-     [v(line)] as if# they were riches of all kinds.#
-       [chunk] as if#
-                 [TN] Heb “as upon,” meaning “as if” (see 2 Chr 32:19).
-       [chunk] they were riches of all kinds.#
-                 [TN] Heb “all wealth.” The phrase refers to all kinds of wealth and riches. See Prov 1:13;...
-   Paragraph 31:
-     [v15] I will meditate on# your precepts
-       [chunk] I will meditate on#
-                 [TN] The cohortative verbal forms in this verse express the psalmist’s resolve.
-   Paragraph 32:
-     [v(line)] and focus# on your behavior.#
-       [chunk] and focus#
-                 [TN] Heb “gaze [at].”
-       [chunk] on your behavior.#
-                 [TN] Heb “ways” (referring figuratively to God’s behavior here).
-   Paragraph 33:
-     [v16] I find delight# in your statutes;
-       [chunk] I find delight#
-                 [TN] The imperfects in this verse emphasize the attitude the psalmist maintains toward God...
-   Paragraph 34:
-     [v(line)] I do not forget your instructions.#
-       [chunk] I do not forget your instructions.#
-                 [TN] Heb “your word.” Many medieval Hebrew mss as well as the LXX read the plural here.
-   Paragraph 35:
-     [v(line)] ג ( Gimel )
-   Paragraph 36:
-     [v17] Be kind to your servant!
-   Paragraph 37:
-     [v(line)] Then I will live# and keep# your instructions.#
-       [chunk] Then I will live#
-                 [TN] The prefixed verbal form is probably a cohortative indicating purpose/result after th...
-       [chunk] and keep#
-                 [TN] The cohortative with vav (ו) conjunctive indicates purpose/result after the imperativ...
-       [chunk] your instructions.#
-                 [TN] Heb “your word.” Many medieval Hebrew mss as well as several ancient versions read th...
-   Paragraph 38:
-     [v18] Open# my eyes so I can truly see#
-       [chunk] Open#
-                 [TN] Heb “uncover.” The verb form גַּל (gal) is an apocopated Piel imperative from גָּלָה ...
-       [chunk] my eyes so I can truly see#
-                 [TN] The cohortative with vav (ו) conjunctive indicates purpose/result after the preceding...
-   Paragraph 39:
-     [v(line)] the marvelous things in your law!
-   Paragraph 40:
-     [v19] I am like a foreigner in this land.#
-       [chunk] I am like a foreigner in this land.#
-                 [TN] Heb “I am a resident alien in the land.” Resident aliens were especially vulnerable a...
-   Paragraph 41:
-     [v(line)] Do not hide your commands from me!
-   Paragraph 42:
-     [v20] I desperately long to know#
-       [chunk] I desperately long to know#
-                 [TN] Heb “my soul languishes for longing for.”
-   Paragraph 43:
-     [v(line)] your regulations at all times.
-   Paragraph 44:
-     [v21] You reprimand arrogant people.
-   Paragraph 45:
-     [v(line)] Those who stray from your commands are doomed.#
-       [chunk] Those who stray from your commands are doomed.#
-                 [TN] Heb “accursed.” The traditional punctuation of the Hebrew text takes “accursed” with ...
-   Paragraph 46:
-     [v22] Spare me# shame and humiliation,
-       [chunk] Spare me#
-                 [TN] Heb “roll away from upon me.” Some derive the imperatival form גַּל (gal) from גָּלָה...
-   Paragraph 47:
-     [v(line)] for I observe your rules.
-   Paragraph 48:
-     [v23] Though rulers plot and slander me,#
-       [chunk] Though rulers plot and slander me,#
-                 [TN] Heb “though rulers sit, about me they talk together.” (For another example of the Nip...
-   Paragraph 49:
-     [v(line)] your servant meditates on your statutes.
-   Paragraph 50:
-     [v24] Yes, I find delight in your rules;
-   Paragraph 51:
-     [v(line)] they give me guidance.#
-       [chunk] they give me guidance.#
-                 [TN] Heb “men of my counsel.” That is, God’s rules are like advisers to the psalmist, for ...
-   Paragraph 52:
-     [v(line)] ד ( Dalet )
-   Paragraph 53:
-     [v25] I collapse in the dirt.#
-       [chunk] I collapse in the dirt.#
-                 [TN] Heb “my soul clings to the dirt.” The Hebrew term נֶפֶשׁ (nefesh, “being; soul”) with...
-   Paragraph 54:
-     [v(line)] Revive me with your word!#
-       [chunk] Revive me with your word!#
-                 [TN] Heb “according to your word.” Many medieval Hebrew mss read the plural “your words.”
-   Paragraph 55:
-     [v26] I told you about my ways# and you answered me.
-       [chunk] I told you about my ways#
-                 [TN] Heb “my ways I proclaimed.”
-   Paragraph 56:
-     [v(line)] Teach me your statutes!
-   Paragraph 57:
-     [v27] Help me to understand what your precepts mean!#
-       [chunk] Help me to understand what your precepts mean!#
-                 [TN] Heb “the way of your precepts make me understand.”
-   Paragraph 58:
-     [v(line)] Then I can meditate# on your marvelous teachings.#
-       [chunk] Then I can meditate#
-                 [TN] The cohortative with vav (ו) conjunctive indicates purpose/result after the preceding...
-       [chunk] on your marvelous teachings.#
-                 [TN] Heb “your amazing things,” which refers here to the teachings of the law (see v. 18).
-   Paragraph 59:
-     [v28] I collapse# from grief.
-       [chunk] I collapse#
-                 [TN] Some translate “my soul weeps,” taking the verb דָלַף (dalaf) from a root meaning “to...
-   Paragraph 60:
-     [v(line)] Sustain me by your word!#
-       [chunk] Sustain me by your word!#
-                 [TN] Heb “according to your word.” Many medieval Hebrew mss read the plural “your words.”
-   Paragraph 61:
-     [v29] Remove me from the path of deceit!#
-       [chunk] Remove me from the path of deceit!#
-                 [TN] The “path of deceit” refers to a lifestyle characterized by deceit and disloyalty to ...
-   Paragraph 62:
-     [v(line)] Graciously give me# your law!
-       [chunk] Graciously give me#
-                 [TN] Heb “be gracious to me.” The verb is used metonymically here for “graciously giving” ...
-   Paragraph 63:
-     [v30] I choose the path of faithfulness;
-   Paragraph 64:
-     [v(line)] I am committed to# your regulations.
-       [chunk] I am committed to#
-                 [TN] BDB 1000-1001 s.v. I שָׁוָה derives the verb from the first homonym listed, meaning “...
-   Paragraph 65:
-     [v31] I hold fast# to your rules.
-       [chunk] I hold fast#
-                 [TN] Or “cling to.”
-   Paragraph 66:
-     [v(line)] O Lord , do not let me be ashamed!
-   Paragraph 67:
-     [v32] I run along the path of your commands,
-   Paragraph 68:
-     [v(line)] for you enable me to do so.#
-       [chunk] for you enable me to do so.#
-                 [TN] Heb “for you make wide my heart.” The “heart” is viewed here as the seat of the psalm...
-   Paragraph 69:
-     [v(line)] ה ( He )
-   Paragraph 70:
-     [v33] Teach me, O Lord, the lifestyle prescribed by your statutes,#
-       [chunk] Teach me, O Lord, the lifestyle prescribed by your statutes,...
-                 [TN] Heb “the way of your statutes.”
-   Paragraph 71:
-     [v(line)] so that I might observe it continually.#
-       [chunk] so that I might observe it continually.#
-                 [TN] Heb “and I will keep it to the end.” The prefixed verbal form with vav (ו) conjunctiv...
-   Paragraph 72:
-     [v34] Give me understanding so that I might observe your law,
-   Paragraph 73:
-     [v(line)] and keep it with all my heart.#
-       [chunk] and keep it with all my heart.#
-                 [TN] The two prefixed verbal forms with vav (ו) conjunctive indicate purpose/result after ...
-   Paragraph 74:
-     [v35] Guide me# in the path of your commands,
-       [chunk] Guide me#
-                 [TN] Or “make me walk.”
-   Paragraph 75:
-     [v(line)] for I delight to walk in it.#
-       [chunk] for I delight to walk in it.#
-                 [TN] Heb “for in it I delight.”
-   Paragraph 76:
-     [v36] Give me a desire for your rules,#
-       [chunk] Give me a desire for your rules,#
-                 [TN] Heb “turn my heart to your rules.”
-   Paragraph 77:
-     [v(line)] rather than for wealth gained unjustly.#
-       [chunk] rather than for wealth gained unjustly.#
-                 [TN] Heb “and not unjust gain.”
-   Paragraph 78:
-     [v37] Turn my eyes away from what is worthless!#
-       [chunk] Turn my eyes away from what is worthless!#
-                 [TN] Heb “Make my eyes pass by from looking at what is worthless.”
-   Paragraph 79:
-     [v(line)] Revive me with your word!#
-       [chunk] Revive me with your word!#
-                 [TN] Heb “by your word.”
-   Paragraph 80:
-     [v38] Confirm to your servant your promise,#
-       [chunk] Confirm to your servant your promise,#
-                 [TN] Heb “word.”
-   Paragraph 81:
-     [v(line)] which you made to the one who honors you.#
-       [chunk] which you made to the one who honors you.#
-                 [TN] Heb “which [is] for your fear,” that is, the promise made to those who exhibit fear o...
-   Paragraph 82:
-     [v39] Take away the insults that I dread!#
-       [chunk] Take away the insults that I dread!#
-                 [TN] Heb “my reproach that I fear.”
-   Paragraph 83:
-     [v(line)] Indeed,# your regulations are good.
-       [chunk] Indeed,#
-                 [TN] Or “for.”
-   Paragraph 84:
-     [v40] Look, I long for your precepts.
-   Paragraph 85:
-     [v(line)] Revive me with your deliverance!#
-       [chunk] Revive me with your deliverance!#
-                 [TN] Or “righteousness.”
-   Paragraph 86:
-     [v(line)] ו ( Vav )
-   Paragraph 87:
-     [v41] May I experience your loyal love,# O Lord,
-       [chunk] May I experience your loyal love,#
-                 [TN] Heb “and may your loyal love come to me.”
-   Paragraph 88:
-     [v(line)] and your deliverance,# as you promised.#
-       [chunk] and your deliverance,#
-                 [TN] Or “salvation” (so many English versions).
-       [chunk] as you promised.#
-                 [TN] Heb “according to your word.”
-   Paragraph 89:
-     [v42] Then I will have a reply for the one who insults me,#
-       [chunk] Then I will have a reply for the one who insults me,#
-                 [TN] Heb “and I will answer [the] one who insults me a word.” The prefixed verbal form wit...
-   Paragraph 90:
-     [v(line)] for I trust in your word.
-   Paragraph 91:
-     [v43] Do not completely deprive me of a truthful testimony,#
-       [chunk] Do not completely deprive me of a truthful testimony,#
-                 [TN] Heb “do not snatch from my mouth a word of truth to excess.” The psalmist wants to be...
-   Paragraph 92:
-     [v(line)] for I await your justice.
-   Paragraph 93:
-     [v44] Then I will keep# your law continually
-       [chunk] Then I will keep#
-                 [TN] The cohortative verbal form with vav (ו) conjunctive indicates purpose/result after t...
-   Paragraph 94:
-     [v(line)] now and for all time.#
-       [chunk] now and for all time.#
-                 [TN] Or “forever and ever.”
-   Paragraph 95:
-     [v45] I will be secure,#
-       [chunk] I will be secure,#
-                 [TN] Heb “and I will walk about in a wide place.” The cohortative with prefixed vav (ו) co...
-   Paragraph 96:
-     [v(line)] for I seek your precepts.
-   Paragraph 97:
-     [v46] I will speak# about your regulations before kings
-       [chunk] I will speak#
-                 [TN] The series of four cohortatives with prefixed vav (ו) conjunctive in vv. 46-48 list f...
-   Paragraph 98:
-     [v(line)] and not be ashamed.
-   Paragraph 99:
-     [v47] I will find delight in your commands,
-   Paragraph 100:
-     [v(line)] which I love.
-   Paragraph 101:
-     [v48] I will lift my hands to# your commands,
-       [chunk] I will lift my hands to#
-                 [TN] Lifting the hands is often associated with prayer (Pss 28:2; 63:4; Lam 2:19). (1) Bec...
-   Paragraph 102:
-     [v(line)] which I love,
-   Paragraph 103:
-     [v(line)] and I will meditate on your statutes.
-   Paragraph 104:
-     [v(line)] ז ( Zayin )
-   Paragraph 105:
-     [v49] Remember your word to your servant,
-   Paragraph 106:
-     [v(line)] for you have given me hope.
-   Paragraph 107:
-     [v50] This# is what comforts me in my trouble,
-       [chunk] This#
-                 [TN] The demonstrative “this” refers back to the hope just mentioned or forward to the sta...
-   Paragraph 108:
-     [v(line)] for your promise revives me.#
-       [chunk] for your promise revives me.#
-                 [TN] The hope generated by the promise (see v. 49b) brings comfort because (note “for” at ...
-   Paragraph 109:
-     [v51] Arrogant people do nothing but scoff at me.#
-       [chunk] Arrogant people do nothing but scoff at me.#
-                 [TN] Heb “scoff at me to excess.”
-   Paragraph 110:
-     [v(line)] Yet I do not turn aside from your law.
-   Paragraph 111:
-     [v52] I remember your ancient regulations,#
-       [chunk] I remember your ancient regulations,#
-                 [TN] Heb “I remember your regulations from of old.” The prepositional phrase “from of old”...
-   Paragraph 112:
-     [v(line)] O Lord, and console myself.#
-       [chunk] O Lord, and console myself.#
-                 [TN] Or “find comfort.”
-   Paragraph 113:
-     [v53] Rage takes hold of me because of the wicked,
-   Paragraph 114:
-     [v(line)] those who reject your law.
-   Paragraph 115:
-     [v54] Your statutes have been my songs#
-       [chunk] Your statutes have been my songs#
-                 [TN] Heb “songs were your statutes to me.”
-   Paragraph 116:
-     [v(line)] in the house where I live.#
-       [chunk] in the house where I live.#
-                 [TN] Heb “in the house of my dwelling place.” Some take the Hebrew noun מָגוֹר (magor) in ...
-   Paragraph 117:
-     [v55] I remember your name during the night, O Lord ,
-   Paragraph 118:
-     [v(line)] and I will keep# your law.
-       [chunk] and I will keep#
-                 [TN] The cohortative verbal form expresses the psalmist’s resolve to obey the law.
-   Paragraph 119:
-     [v56] This# has been my practice,
-       [chunk] This#
-                 [TN] Heb “this has been to me.” The demonstrative “this” (1) refers back to the practices ...
-   Paragraph 120:
-     [v(line)] for I observe your precepts.
-   Paragraph 121:
-     [v(line)] ח ( Khet )
-   Paragraph 122:
-     [v57] The Lord is my source of security.#
-       [chunk] The Lord is my source of security.#
-                 [TN] Heb “my portion [is] the Lord.” The psalmist compares the Lord to landed property, wh...
-   Paragraph 123:
-     [v(line)] I have determined# to follow your instructions.#
-       [chunk] I have determined#
-                 [TN] Heb “I said.”
-       [chunk] to follow your instructions.#
-                 [TN] Heb “to keep your words” (see v. 9).
-   Paragraph 124:
-     [v58] I seek your favor# with all my heart.
-       [chunk] I seek your favor#
-                 [TN] Heb “I appease your face.”
-   Paragraph 125:
-     [v(line)] Have mercy on me as you promised!#
-       [chunk] Have mercy on me as you promised!#
-                 [TN] Heb “according to your word.”
-   Paragraph 126:
-     [v59] I consider my actions#
-       [chunk] I consider my actions#
-                 [TN] Heb “my ways.”
-   Paragraph 127:
-     [v(line)] and follow# your rules.
-       [chunk] and follow#
-                 [TN] Heb “and I turn my feet toward.”
-   Paragraph 128:
-     [v60] I keep your commands
-   Paragraph 129:
-     [v(line)] eagerly and without delay.#
-       [chunk] eagerly and without delay.#
-                 [TN] Heb “I hurry and I do not delay to keep your commands.”
-   Paragraph 130:
-     [v61] The ropes of the wicked tighten around# me,
-       [chunk] The ropes of the wicked tighten around#
-                 [TN] Heb “surround.”
-   Paragraph 131:
-     [v(line)] but I do not forget your law.
-   Paragraph 132:
-     [v62] In the middle of the night I arise# to thank you
-       [chunk] In the middle of the night I arise#
-                 [TN] The psalmist uses an imperfect verbal form to emphasize that this is his continuing p...
-   Paragraph 133:
-     [v(line)] for your just regulations.
-   Paragraph 134:
-     [v63] I am a friend to all your loyal followers,#
-       [chunk] I am a friend to all your loyal followers,#
-                 [TN] Heb “to all who fear you.”
-   Paragraph 135:
-     [v(line)] and to those who keep your precepts.
-   Paragraph 136:
-     [v64] O Lord , your loyal love fills the earth.
-   Paragraph 137:
-     [v(line)] Teach me your statutes!
-   Paragraph 138:
-     [v(line)] ט ( Tet )
-   Paragraph 139:
-     [v65] You are good# to your servant,
-       [chunk] You are good#
-                 [TN] Heb “do good.”
-   Paragraph 140:
-     [v(line)] O Lord, just as you promised.#
-       [chunk] O Lord, just as you promised.#
-                 [TN] Heb “according to your word.”
-   Paragraph 141:
-     [v66] Teach me proper discernment# and understanding!
-       [chunk] Teach me proper discernment#
-                 [TN] Heb “goodness of taste.” Here “taste” refers to moral and ethical discernment.
-   Paragraph 142:
-     [v(line)] For I consider your commands to be reliable.#
-       [chunk] For I consider your commands to be reliable.#
-                 [TN] Heb “for I believe in your commands.”
-   Paragraph 143:
-     [v67] Before I was afflicted I used to stray off,#
-       [chunk] Before I was afflicted I used to stray off,#
-                 [TN] Heb “before I suffered, I was straying off.”
-   Paragraph 144:
-     [v(line)] but now I keep your instructions.#
-       [chunk] but now I keep your instructions.#
-                 [TN] Heb “your word.”
-   Paragraph 145:
-     [v68] You are good and you do good.
-   Paragraph 146:
-     [v(line)] Teach me your statutes!
-   Paragraph 147:
-     [v69] Arrogant people smear my reputation with lies,#
-       [chunk] Arrogant people smear my reputation with lies,#
-                 [TN] Heb “smear over me a lie.”
-   Paragraph 148:
-     [v(line)] but I observe your precepts with all my heart.
-   Paragraph 149:
-     [v70] Their hearts are calloused,#
-       [chunk] Their hearts are calloused,#
-                 [TN] Heb “their heart is insensitive like fat.”
-   Paragraph 150:
-     [v(line)] but I find delight in your law.
-   Paragraph 151:
-     [v71] It was good for me to suffer,
-   Paragraph 152:
-     [v(line)] so that I might learn your statutes.
-   Paragraph 153:
-     [v72] The law you have revealed is more important to me
-   Paragraph 154:
-     [v(line)] than thousands of pieces of gold and silver.#
-       [chunk] than thousands of pieces of gold and silver.#
-                 [TN] Heb “better to me [is] the law of your mouth than thousands of gold and silver.”
-   Paragraph 155:
-     [v(line)] י ( Yod )
-   Paragraph 156:
-     [v73] Your hands made me and formed me.#
-       [chunk] Your hands made me and formed me.#
-                 [TN] Heb “made me and established me.” The two verbs also appear together in Deut 32:6, wh...
-   Paragraph 157:
-     [v(line)] Give me understanding so that I might learn# your commands.
-       [chunk] Give me understanding so that I might learn#
-                 [TN] The cohortative verbal form with vav (ו) conjunctive indicates purpose/result after t...
-   Paragraph 158:
-     [v74] Your loyal followers will be glad when they see me,#
-       [chunk] Your loyal followers will be glad when they see me,#
-                 [TN] Heb “those who fear you will see me and rejoice.”
-   Paragraph 159:
-     [v(line)] for I find hope in your word.
-   Paragraph 160:
-     [v75] I know, Lord, that your regulations# are just.
-       [chunk] I know, Lord, that your regulations#
-                 [TN] In this context (note the second line) the Hebrew term מִשְׁפָּטִים (mishpatim), whic...
-   Paragraph 161:
-     [v(line)] You disciplined me because of your faithful devotion to me.#
-       [chunk] You disciplined me because of your faithful devotion to me.#
-                 [TN] Heb “and [in] faithfulness you afflicted me.”
-   Paragraph 162:
-     [v76] May your loyal love console me,
-   Paragraph 163:
-     [v(line)] as you promised your servant.#
-       [chunk] as you promised your servant.#
-                 [TN] Heb “according to your word to your servant.”
-   Paragraph 164:
-     [v77] May I experience your compassion,# so I might live!
-       [chunk] May I experience your compassion,#
-                 [TN] Heb “and may your compassion come to me.”
-   Paragraph 165:
-     [v(line)] For I find delight in your law.
-   Paragraph 166:
-     [v78] May the arrogant be humiliated, for they have slandered me!#
-       [chunk] May the arrogant be humiliated, for they have slandered me!#
-                 [TN] Heb “for [with] falsehood they have denied me justice.”
-   Paragraph 167:
-     [v(line)] But I meditate on your precepts.
-   Paragraph 168:
-     [v79] May your loyal followers# turn to me,
-       [chunk] May your loyal followers#
-                 [TN] Heb “those who fear you.”
-   Paragraph 169:
-     [v(line)] those who know your rules.
-   Paragraph 170:
-     [v80] May I be fully committed to your statutes,#
-       [chunk] May I be fully committed to your statutes,#
-                 [TN] Heb “may my heart be complete in your statutes.”
-   Paragraph 171:
-     [v(line)] so that I might not be ashamed.
-   Paragraph 172:
-     [v(line)] כ ( Kaf )
-   Paragraph 173:
-     [v81] I desperately long for# your deliverance.
-       [chunk] I desperately long for#
-                 [TN] Heb “my soul pines for.” See Ps 84:2.
-   Paragraph 174:
-     [v(line)] I find hope in your word.
-   Paragraph 175:
-     [v82] My eyes grow tired as I wait for your promise to be fulfilled.#
-       [chunk] My eyes grow tired as I wait for your promise to be fulfille...
-                 [TN] Heb “my eyes fail for your word.” The psalmist has intently kept his eyes open, looki...
-   Paragraph 176:
-     [v(line)] I say,# “When will you comfort me?”
-       [chunk] I say,#
-                 [TN] Heb “saying.”
-   Paragraph 177:
-     [v83] For# I am like a wineskin# dried up in smoke.#
-       [chunk] For#
-                 [TN] Or “even though.”
-       [chunk] I am like a wineskin#
-                 [TN] The Hebrew word נֹאד (no’d, “leather container”) refers to a container made from anim...
-       [chunk] dried up in smoke.#
-                 [TN] Heb “in the smoke.”
-   Paragraph 178:
-     [v(line)] I do not forget your statutes.
-   Paragraph 179:
-     [v84] How long must your servant endure this?#
-       [chunk] How long must your servant endure this?#
-                 [TN] Heb “How long are the days of your servant?”
-   Paragraph 180:
-     [v(line)] When will you judge those who pursue me?
-   Paragraph 181:
-     [v85] The arrogant dig pits to trap me,#
-       [chunk] The arrogant dig pits to trap me,#
-                 [TN] Heb “for me.”
-   Paragraph 182:
-     [v(line)] which violates your law.#
-       [chunk] which violates your law.#
-                 [TN] Heb “which [is] not according to your law.”
-   Paragraph 183:
-     [v86] All your commands are reliable.
-   Paragraph 184:
-     [v(line)] I am pursued without reason.# Help me!
-       [chunk] I am pursued without reason.#
-                 [SN] God’s commands are a reliable guide to right and wrong. By keeping them the psalmist ...
-   Paragraph 185:
-     [v87] They have almost destroyed me here on the earth,
-   Paragraph 186:
-     [v(line)] but I do not reject your precepts.
-   Paragraph 187:
-     [v88] Revive me with# your loyal love,
-       [chunk] Revive me with#
-                 [TN] Heb “according to.”
-   Paragraph 188:
-     [v(line)] that I might keep# the rules you have revealed.#
-       [chunk] that I might keep#
-                 [TN] The cohortative verbal form with vav (ו) conjunctive indicates purpose/result after t...
-       [chunk] the rules you have revealed.#
-                 [TN] Heb “of your mouth.”
-   Paragraph 189:
-     [v(line)] ל ( Lamed )
-   Paragraph 190:
-     [v89] O Lord , your instructions endure;
-   Paragraph 191:
-     [v(line)] they stand secure in heaven.#
-       [chunk] they stand secure in heaven.#
-                 [TN] Heb “Forever, O Lord, your word stands firm in heaven,” or “Forever, O Lord, [is] you...
-   Paragraph 192:
-     [v90] You demonstrate your faithfulness to all generations.#
-       [chunk] You demonstrate your faithfulness to all generations.#
-                 [TN] Heb “to a generation and a generation [is] your faithfulness.”
-   Paragraph 193:
-     [v(line)] You established the earth and it stood firm.
-   Paragraph 194:
-     [v91] Today they stand firm by your decrees,
-   Paragraph 195:
-     [v(line)] for all things are your servants.
-   Paragraph 196:
-     [v92] If I had not found encouragement in your law,#
-       [chunk] If I had not found encouragement in your law,#
-                 [TN] Heb “if your law had not been my delight.”
-   Paragraph 197:
-     [v(line)] I would have died in my sorrow.#
-       [chunk] I would have died in my sorrow.#
-                 [TN] Or “my suffering.”
-   Paragraph 198:
-     [v93] I will never forget your precepts,
-   Paragraph 199:
-     [v(line)] for by them you have revived me.
-   Paragraph 200:
-     [v94] I belong to you. Deliver me!
-   Paragraph 201:
-     [v(line)] For I seek your precepts.
-   Paragraph 202:
-     [v95] The wicked prepare to kill me,#
-       [chunk] The wicked prepare to kill me,#
-                 [TN] Heb “the wicked wait for me to kill me.”
-   Paragraph 203:
-     [v(line)] yet I concentrate on your rules.
-   Paragraph 204:
-     [v96] I realize that everything has its limits,
-   Paragraph 205:
-     [v(line)] but your commands are beyond full comprehension.#
-       [chunk] but your commands are beyond full comprehension.#
-                 [TN] Heb “to every perfection I have seen an end, your command is very wide.” God’s law is...
-   Paragraph 206:
-     [v(line)] מ ( Mem )
-   Paragraph 207:
-     [v97] O how I love your law!
-   Paragraph 208:
-     [v(line)] All day long I meditate on it.
-   Paragraph 209:
-     [v98] Your commandments# make me wiser than my enemies,
-       [chunk] Your commandments#
-                 [TN] The plural form needs to be revocalized as a singular in order to agree with the prec...
-   Paragraph 210:
-     [v(line)] for I am always aware of them.
-   Paragraph 211:
-     [v99] I have more insight than all my teachers,
-   Paragraph 212:
-     [v(line)] for I meditate on your rules.
-   Paragraph 213:
-     [v100] I am more discerning than those older than I,
-   Paragraph 214:
-     [v(line)] for I observe your precepts.
-   Paragraph 215:
-     [v101] I stay away# from the evil path,
-       [chunk] I stay away#
-                 [TN] Heb “I hold back my feet.”
-   Paragraph 216:
-     [v(line)] so that I might keep your instructions.#
-       [chunk] so that I might keep your instructions.#
-                 [TN] Heb “your word.” Many medieval Hebrew mss read the plural.
-   Paragraph 217:
-     [v102] I do not turn aside from your regulations,
-   Paragraph 218:
-     [v(line)] for you teach me.
-   Paragraph 219:
-     [v103] Your words are sweeter
-   Paragraph 220:
-     [v(line)] in my mouth than honey!#
-       [chunk] in my mouth than honey!#
-                 [TN] Heb “How smooth they are to my palate, your word, more than honey to my mouth.” A few...
-   Paragraph 221:
-     [v104] Your precepts give me discernment.
-   Paragraph 222:
-     [v(line)] Therefore I hate all deceitful actions.#
-       [chunk] Therefore I hate all deceitful actions.#
-                 [TN] Heb “every false path.”
-   Paragraph 223:
-     [v(line)] נ ( Nun )
-   Paragraph 224:
-     [v105] Your word# is a lamp to walk by,
-       [chunk] Your word#
-                 [TN] Many medieval Hebrew mss read the plural (“words”).
-   Paragraph 225:
-     [v(line)] and a light to illumine my path.#
-       [chunk] and a light to illumine my path.#
-                 [TN] Heb “[is] a lamp for my foot and a light for my path.”
-   Paragraph 226:
-     [v106] I have vowed and solemnly sworn
-   Paragraph 227:
-     [v(line)] to keep your just regulations.
-   Paragraph 228:
-     [v107] I am suffering terribly.
-   Paragraph 229:
-     [v(line)] O Lord, revive me with your word!#
-       [chunk] O Lord, revive me with your word!#
-                 [TN] Heb “according to your word.”
-   Paragraph 230:
-     [v108] O Lord, please accept the freewill offerings of my praise!#
-       [chunk] O Lord, please accept the freewill offerings of my praise!#
-                 [TN] Heb “of my mouth.”
-   Paragraph 231:
-     [v(line)] Teach me your regulations!
-   Paragraph 232:
-     [v109] My life is in continual danger,#
-       [chunk] My life is in continual danger,#
-                 [TN] Heb “my life [is] in my hands continually.”
-   Paragraph 233:
-     [v(line)] but I do not forget your law.
-   Paragraph 234:
-     [v110] The wicked lay a trap for me,
-   Paragraph 235:
-     [v(line)] but I do not wander from your precepts.
-   Paragraph 236:
-     [v111] I claim your rules as my permanent possession,
-   Paragraph 237:
-     [v(line)] for they give me joy.#
-       [chunk] for they give me joy.#
-                 [TN] Heb “for the joy of my heart [are] they.”
-   Paragraph 238:
-     [v112] I am determined to obey# your statutes
-       [chunk] I am determined to obey#
-                 [TN] Heb “I turn my heart to do.”
-   Paragraph 239:
-     [v(line)] at all times, to the very end.
-   Paragraph 240:
-     [v(line)] ס ( Samek )
-   Paragraph 241:
-     [v(line)] ֹ119:113 I hate people with divided loyalties,#
-       [chunk] ֹ119:113 I hate people with divided loyalties,#
-                 [TN] Heb “divided ones.” The word occurs only here; it appears to be derived from a verbal...
-   Paragraph 242:
-     [v(line)] but I love your law.
-   Paragraph 243:
-     [v114] You are my hiding place and my shield.
-   Paragraph 244:
-     [v(line)] I find hope in your word.
-   Paragraph 245:
-     [v115] Turn away from me, you evil men,
-   Paragraph 246:
-     [v(line)] so that I can observe# the commands of my God.#
-       [chunk] so that I can observe#
-                 [TN] The cohortative verbal form with vav (ו) conjunctive indicates purpose/result after t...
-       [chunk] the commands of my God.#
-                 [TN] The psalmist has already declared that he observes God’s commands despite persecution...
-   Paragraph 247:
-     [v116] Sustain me as you promised,# so that I will live.#
-       [chunk] Sustain me as you promised,#
-                 [TN] Heb “according to your word.”
-       [chunk] so that I will live.#
-                 [TN] The prefixed verbal form with vav (ו) conjunctive indicates purpose/result after the ...
-   Paragraph 248:
-     [v(line)] Do not disappoint me!#
-       [chunk] Do not disappoint me!#
-                 [TN] Heb “do not make me ashamed of my hope.” After the Hebrew verb בּוֹשׁ (bosh, “to be a...
-   Paragraph 249:
-     [v117] Support me, so that I will be delivered.
-   Paragraph 250:
-     [v(line)] Then I will focus# on your statutes continually.
-       [chunk] Then I will focus#
-                 [TN] Or “and that I might focus.” The two cohortatives with vav (ו) conjunctive indicate p...
-   Paragraph 251:
-     [v118] You despise# all who stray from your statutes,
-       [chunk] You despise#
-                 [TN] The Hebrew verb סָלָה (salah, “to disdain”) occurs only here and in Lam 1:15. Cognate...
-   Paragraph 252:
-     [v(line)] for they are deceptive and unreliable.#
-       [chunk] for they are deceptive and unreliable.#
-                 [TN] Heb “for their deceit [is] falsehood.”
-   Paragraph 253:
-     [v119] You remove all the wicked of the earth like slag.#
-       [chunk] You remove all the wicked of the earth like slag.#
-                 [SN] Traditionally “dross” (so KJV, ASV, NIV). The metaphor comes from metallurgy; “slag” ...
-   Paragraph 254:
-     [v(line)] Therefore I love your rules.#
-       [chunk] Therefore I love your rules.#
-                 [SN] As he explains in the next verse, the psalmist’s fear of judgment motivates him to ob...
-   Paragraph 255:
-     [v120] My body# trembles# because I fear you;#
-       [chunk] My body#
-                 [TN] Heb “my flesh.”
-       [chunk] trembles#
-                 [TN] The Hebrew verb סָמַר (samar, “to tremble”) occurs only here and in Job 4:15.
-       [chunk] because I fear you;#
-                 [TN] Heb “from fear of you.” The pronominal suffix on the noun is an objective genitive.
-   Paragraph 256:
-     [v(line)] I am afraid of your judgments.
-   Paragraph 257:
-     [v(line)] ע ( Ayin )
-   Paragraph 258:
-     [v121] I do what is fair and right.#
-       [chunk] I do what is fair and right.#
-                 [TN] Heb “do justice and righteousness.”
-   Paragraph 259:
-     [v(line)] Do not abandon me to my oppressors!
-   Paragraph 260:
-     [v122] Guarantee the welfare of your servant!#
-       [chunk] Guarantee the welfare of your servant!#
-                 [TN] Heb “be surety for your servant for good.”
-   Paragraph 261:
-     [v(line)] Do not let the arrogant oppress me!
-   Paragraph 262:
-     [v123] My eyes grow tired as I wait for your deliverance,#
-       [chunk] My eyes grow tired as I wait for your deliverance,#
-                 [TN] Heb “my eyes fail for your deliverance.” The psalmist has intently kept his eyes open...
-   Paragraph 263:
-     [v(line)] for your reliable promise to be fulfilled.#
-       [chunk] for your reliable promise to be fulfilled.#
-                 [TN] Heb “and for the word of your faithfulness.”
-   Paragraph 264:
-     [v124] Show your servant your loyal love!#
-       [chunk] Show your servant your loyal love!#
-                 [TN] Heb “do with your servant according to your loyal love.”
-   Paragraph 265:
-     [v(line)] Teach me your statutes!
-   Paragraph 266:
-     [v125] I am your servant. Give me insight,
-   Paragraph 267:
-     [v(line)] so that I can understand# your rules.
-       [chunk] so that I can understand#
-                 [TN] or “know.” The cohortative verbal form with vav (ו) conjunctive indicates purpose/res...
-   Paragraph 268:
-     [v126] It is time for the Lord to act –
-   Paragraph 269:
-     [v(line)] they break your law!
-   Paragraph 270:
-     [v127] For this reason# I love your commands
-       [chunk] For this reason#
-                 [TN] “For this reason” connects logically with the statement made in v. 126. Because the j...
-   Paragraph 271:
-     [v(line)] more than gold, even purest gold.
-   Paragraph 272:
-     [v128] For this reason I carefully follow all your precepts.#
-       [chunk] For this reason I carefully follow all your precepts.#
-                 [TN] Heb “for this reason all the precepts of everything I regard as right.” The phrase “p...
-   Paragraph 273:
-     [v(line)] I hate all deceitful actions.#
-       [chunk] I hate all deceitful actions.#
-                 [TN] Heb “every false path.”
-   Paragraph 274:
-     [v(line)] פ ( Pe )
-   Paragraph 275:
-     [v129] Your rules are marvelous.
-   Paragraph 276:
-     [v(line)] Therefore I observe them.
-   Paragraph 277:
-     [v130] Your instructions are a doorway through which light shines.#
-       [chunk] Your instructions are a doorway through which light shines.#
-                 [TN] Heb “the doorway of your words gives light.” God’s “words” refer here to the instruct...
-   Paragraph 278:
-     [v(line)] They give# insight to the untrained.#
-       [chunk] They give#
-                 [TN] Heb “it [i.e., the doorway] gives.”
-       [chunk] insight to the untrained.#
-                 [TN] Or “the [morally] naive,” that is, the one who is young and still in the process of l...
-   Paragraph 279:
-     [v131] I open my mouth and pant,
-   Paragraph 280:
-     [v(line)] because I long# for your commands.
-       [chunk] because I long#
-                 [TN] The verb occurs only here in the OT.
-   Paragraph 281:
-     [v132] Turn toward me and extend mercy to me,
-   Paragraph 282:
-     [v(line)] as you typically do to your loyal followers.#
-       [chunk] as you typically do to your loyal followers.#
-                 [TN] Heb “according to custom toward the lovers of your name.” The “lovers of” God’s “name...
-   Paragraph 283:
-     [v133] Direct my steps by your word!#
-       [chunk] Direct my steps by your word!#
-                 [TN] God’s “word” refers here to his law (see v. 11).
-   Paragraph 284:
-     [v(line)] Do not let any sin dominate me!
-   Paragraph 285:
-     [v134] Deliver me# from oppressive men,
-       [chunk] Deliver me#
-                 [TN] Or “redeem me.”
-   Paragraph 286:
-     [v(line)] so that I can keep# your precepts.
-       [chunk] so that I can keep#
-                 [TN] The cohortative verbal form with vav (ו) conjunctive indicates purpose/result after t...
-   Paragraph 287:
-     [v135] Smile# on your servant!
-       [chunk] Smile#
-                 [TN] Heb “cause your face to shine.”
-   Paragraph 288:
-     [v(line)] Teach me your statutes!
-   Paragraph 289:
-     [v136] Tears stream down from my eyes,#
-       [chunk] Tears stream down from my eyes,#
-                 [TN] Heb “[with] flowing streams my eyes go down.”
-   Paragraph 290:
-     [v(line)] because people# do not keep your law.
-       [chunk] because people#
-                 [TN] Heb “they”; even though somewhat generic, the referent (people) has been specified in...
-   Paragraph 291:
-     [v(line)] צ ( Tsade )
-   Paragraph 292:
-     [v137] You are just, O Lord ,
-   Paragraph 293:
-     [v(line)] and your judgments are fair.
-   Paragraph 294:
-     [v138] The rules you impose are just,#
-       [chunk] The rules you impose are just,#
-                 [TN] Heb “you commanded [in] justice your rules.”
-   Paragraph 295:
-     [v(line)] and absolutely reliable.
-   Paragraph 296:
-     [v139] My zeal# consumes# me,
-       [chunk] My zeal#
-                 [TN] or “zeal.”
-       [chunk] consumes#
-                 [TN] Heb “destroys,” in a hyperbolic sense.
-   Paragraph 297:
-     [v(line)] for my enemies forget your instructions.#
-       [chunk] for my enemies forget your instructions.#
-                 [TN] Heb “your words.”
-   Paragraph 298:
-     [v140] Your word is absolutely pure,
-   Paragraph 299:
-     [v(line)] and your servant loves it!
-   Paragraph 300:
-     [v141] I am insignificant and despised,
-   Paragraph 301:
-     [v(line)] yet I do not forget your precepts.
-   Paragraph 302:
-     [v142] Your justice endures,#
-       [chunk] Your justice endures,#
-                 [TN] Heb “your justice [is] justice forever.”
-   Paragraph 303:
-     [v(line)] and your law is reliable.#
-       [chunk] and your law is reliable.#
-                 [TN] Or “truth.”
-   Paragraph 304:
-     [v143] Distress and hardship confront# me,
-       [chunk] Distress and hardship confront#
-                 [TN] Heb “find.”
-   Paragraph 305:
-     [v(line)] yet I find delight in your commands.
-   Paragraph 306:
-     [v144] Your rules remain just.#
-       [chunk] Your rules remain just.#
-                 [TN] Heb “just are your rules forever.”
-   Paragraph 307:
-     [v(line)] Give me insight so that I can live.#
-       [chunk] Give me insight so that I can live.#
-                 [TN] The cohortative verbal form with vav (ו) conjunctive indicates purpose/result after t...
-   Paragraph 308:
-     [v(line)] ק ( Qof )
-   Paragraph 309:
-     [v145] I cried out with all my heart, “Answer me, O Lord !
-   Paragraph 310:
-     [v(line)] I will observe your statutes.”
-   Paragraph 311:
-     [v146] I cried out to you, “Deliver me,
-   Paragraph 312:
-     [v(line)] so that I can keep# your rules.”
-       [chunk] so that I can keep#
-                 [TN] The cohortative verbal form with vav (ו) conjunctive indicates purpose/result after t...
-   Paragraph 313:
-     [v147] I am up before dawn crying for help.
-   Paragraph 314:
-     [v(line)] I find hope in your word.
-   Paragraph 315:
-     [v148] My eyes anticipate the nighttime hours,
-   Paragraph 316:
-     [v(line)] so that I can meditate on your word.
-   Paragraph 317:
-     [v149] Listen to me# because of# your loyal love!
-       [chunk] Listen to me#
-                 [TN] Heb “my voice.”
-       [chunk] because of#
-                 [TN] Heb “according to.”
-   Paragraph 318:
-     [v(line)] O Lord, revive me, as you typically do!#
-       [chunk] O Lord, revive me, as you typically do!#
-                 [TN] Heb “according to your custom.”
-   Paragraph 319:
-     [v150] Those who are eager to do# wrong draw near;
-       [chunk] Those who are eager to do#
-                 [TN] Heb “those who pursue.”
-   Paragraph 320:
-     [v(line)] they are far from your law.
-   Paragraph 321:
-     [v151] You are near, O Lord ,
-   Paragraph 322:
-     [v(line)] and all your commands are reliable.#
-       [chunk] and all your commands are reliable.#
-                 [TN] Or “truth.”
-   Paragraph 323:
-     [v152] I learned long ago that
-   Paragraph 324:
-     [v(line)] you ordained your rules to last.#
-       [chunk] you ordained your rules to last.#
-                 [TN] Heb “long ago I knew concerning your rules, that forever you established them.” See v...
-   Paragraph 325:
-     [v(line)] ר ( Resh )
-   Paragraph 326:
-     [v153] See my pain and rescue me!
-   Paragraph 327:
-     [v(line)] For I do not forget your law.
-   Paragraph 328:
-     [v154] Fight for me# and defend me!#
-       [chunk] Fight for me#
-                 [TN] Or “argue my case.”
-       [chunk] and defend me!#
-                 [TN] Heb “and redeem me.” The verb “redeem” casts the Lord in the role of a leader who pro...
-   Paragraph 329:
-     [v(line)] Revive me with your word!
-   Paragraph 330:
-     [v155] The wicked have no chance for deliverance,#
-       [chunk] The wicked have no chance for deliverance,#
-                 [TN] Heb “far from the wicked [is] deliverance.”
-   Paragraph 331:
-     [v(line)] for they do not seek your statutes.
-   Paragraph 332:
-     [v156] Your compassion is great, O Lord .
-   Paragraph 333:
-     [v(line)] Revive me, as you typically do!#
-       [chunk] Revive me, as you typically do!#
-                 [TN] Heb “according to your customs.”
-   Paragraph 334:
-     [v157] The enemies who chase me are numerous.#
-       [chunk] The enemies who chase me are numerous.#
-                 [TN] Heb “many [are] those who chase me and my enemies.”
-   Paragraph 335:
-     [v(line)] Yet I do not turn aside from your rules.
-   Paragraph 336:
-     [v158] I take note of the treacherous and despise them,
-   Paragraph 337:
-     [v(line)] because they do not keep your instructions.#
-       [chunk] because they do not keep your instructions.#
-                 [TN] Heb “your word.”
-   Paragraph 338:
-     [v159] See how I love your precepts!
-   Paragraph 339:
-     [v(line)] O Lord , revive me with your loyal love!
-   Paragraph 340:
-     [v160] Your instructions are totally reliable;
-   Paragraph 341:
-     [v(line)] all your just regulations endure.#
-       [chunk] all your just regulations endure.#
-                 [TN] Heb “the head of your word is truth, and forever [is] all your just regulation.” The ...
-   Paragraph 342:
-     [v(line)] שׂ/שׁ ( Sin/Shin )
-   Paragraph 343:
-     [v161] Rulers pursue me for no reason,
-   Paragraph 344:
-     [v(line)] yet I am more afraid of disobeying your instructions.#
-       [chunk] yet I am more afraid of disobeying your instructions.#
-                 [TN] Heb “and because of your instructions my heart trembles.” The psalmist’s healthy “fea...
-   Paragraph 345:
-     [v162] I rejoice in your instructions,
-   Paragraph 346:
-     [v(line)] like one who finds much plunder.#
-       [chunk] like one who finds much plunder.#
-                 [TN] Heb “like one who finds great plunder.” See Judg 5:30. The image is that of a victori...
-   Paragraph 347:
-     [v163] I hate and despise deceit;
-   Paragraph 348:
-     [v(line)] I love your law.
-   Paragraph 349:
-     [v164] Seven# times a day I praise you
-       [chunk] Seven#
-                 [TN] The number “seven” is use rhetorically to suggest thoroughness.
-   Paragraph 350:
-     [v(line)] because of your just regulations.
-   Paragraph 351:
-     [v165] Those who love your law are completely secure;#
-       [chunk] Those who love your law are completely secure;#
-                 [TN] Heb “great peace [is] to the lovers of your law.”
-   Paragraph 352:
-     [v(line)] nothing causes them to stumble.#
-       [chunk] nothing causes them to stumble.#
-                 [TN] Heb “and there is no stumbling to them.”
-   Paragraph 353:
-     [v166] I hope for your deliverance, O Lord ,
-   Paragraph 354:
-     [v(line)] and I obey# your commands.
-       [chunk] and I obey#
-                 [TN] Heb “do.”
-   Paragraph 355:
-     [v167] I keep your rules;
-   Paragraph 356:
-     [v(line)] I love them greatly.
-   Paragraph 357:
-     [v168] I keep your precepts and rules,
-   Paragraph 358:
-     [v(line)] for you are aware of everything I do.#
-       [chunk] for you are aware of everything I do.#
-                 [TN] Heb “for all my ways [are] before you.”
-   Paragraph 359:
-     [v(line)] ת ( Tav )
-   Paragraph 360:
-     [v169] Listen to my cry for help,# O Lord!
-       [chunk] Listen to my cry for help,#
-                 [TN] Heb “may my cry approach before you.”
-   Paragraph 361:
-     [v(line)] Give me insight by your word!
-   Paragraph 362:
-     [v170] Listen to my appeal for mercy!#
-       [chunk] Listen to my appeal for mercy!#
-                 [TN] Heb “may my appeal for mercy come before you.”
-   Paragraph 363:
-     [v(line)] Deliver me, as you promised.#
-       [chunk] Deliver me, as you promised.#
-                 [TN] Heb “according to your speech.”
-   Paragraph 364:
-     [v171] May praise flow freely from my lips,
-   Paragraph 365:
-     [v(line)] for you teach me your statutes.
-   Paragraph 366:
-     [v172] May my tongue sing about your instructions,#
-       [chunk] May my tongue sing about your instructions,#
-                 [TN] Heb “your word.”
-   Paragraph 367:
-     [v(line)] for all your commands are just.
-   Paragraph 368:
-     [v173] May your hand help me,
-   Paragraph 369:
-     [v(line)] for I choose to obey# your precepts.
-       [chunk] for I choose to obey#
-                 [TN] The words “to obey” are not in the Hebrew text, but have been supplied in the transla...
-   Paragraph 370:
-     [v174] I long for your deliverance, O Lord ;
-   Paragraph 371:
-     [v(line)] I find delight in your law.
-   Paragraph 372:
-     [v175] May I# live and praise you!
-       [chunk] May I#
-                 [TN] Heb “my life.”
-   Paragraph 373:
-     [v(line)] May your regulations help me!#
-       [chunk] May your regulations help me!#
-                 [TN] God’s regulations will “help” the psalmist by giving him moral and ethical guidance.
-   Paragraph 374:
-     [v176] I have wandered off like a lost sheep.#
-       [chunk] I have wandered off like a lost sheep.#
-                 [TN] Heb “I stray like a lost sheep.” It is possible that the point of the metaphor is vul...
-   Paragraph 375:
-     [v(line)] Come looking for your servant,
-   Paragraph 376:
-     [v(line)] for I do not forget your commands.
+     [v31] God saw all that he had made – and it was very good!# There was evening, and there was morning, the sixth day.
+       [chunk] God saw all that he had made – and it was very good!#
+                 [TN] The Hebrew text again uses הִנֵּה (hinneh) for the sake of vividness. It is a particle that goes with the gesture of pointing, calling attention to something.

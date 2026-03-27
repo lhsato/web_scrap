@@ -468,15 +468,15 @@ def print_structure(cp: ChapterPage, show_footnotes: bool = True) -> None:
             #                       f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")
             for verse in para.verses:
                 print(f"     [v{verse.number if verse.number is not None else '(line)'}] "
-                      f"{verse.plain_text[:80]}{'...' if len(verse.plain_text) > 80 else ''}"
-                    # f"{verse.plain_text}"
-                      )
+                    #   f"{verse.plain_text[:80]}{'...' if len(verse.plain_text) > 80 else ''}"
+                    f"{verse.plain_text}")
                 for chunk in verse.chunks:
                     if chunk.footnotes:
                         print(f"       [chunk] {chunk.text[:60]}{'...' if len(chunk.text) > 60 else ''}")
                         for fn in chunk.footnotes:
                             print(f"                 [{fn.type.upper()}] "
-                                    f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")   
+                                    # f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")   
+                                    f"{fn.text}")   
 
 
 # ── Entry point ───────────────────────────────────────────────────────────────
@@ -484,7 +484,7 @@ def print_structure(cp: ChapterPage, show_footnotes: bool = True) -> None:
 if __name__ == "__main__":
     import sys
     URL = "https://www.bible.com/bible/107/GEN.1.NET"
-    URL = "https://www.bible.com/bible/107/PSA.119.NET"
+    # URL = "https://www.bible.com/bible/107/PSA.119.NET"
     with open("output.txt", "w", encoding="utf-8") as _f:
         sys.stdout = _f
         print(f"Scraping {URL} ...\n")
