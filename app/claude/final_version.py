@@ -291,21 +291,36 @@ def _parse_paragraph(p_tag: Tag) -> Paragraph:
                 i += 1
 
     # ── Walk children ────────────────────────────────────────────────────────
-    for child in p_tag.children:
-        if isinstance(child, Tag):
-            if _is_ft(child):
-                # ft span: flush accumulated text, attach these footnotes
-                flush(_parse_ft_span(child))
-            else:
-                inner = child.get_text(" ", strip=False)
-                raw_inner = re.sub(r"\s+", " ", inner).strip()
-                if re.fullmatch(r"\d+", raw_inner):    # bare verse-number span
-                    flush([])
-                    new_verse(int(raw_inner))
+    def walk(node: Tag) -> None:
+        """
+        Recursively walk a tag's children so that ft spans nested inside
+        non-ft wrapper spans are still handled correctly.
+        Non-ft, non-verse-number tags are descended into rather than
+        having their full get_text() dumped into pending_text (which would
+        include ft-span text and cause footnote body text to bleed into
+        the bible text and be incorrectly split on verse-number digits).
+        """
+        nonlocal pending_text
+        for child in node.children:
+            if isinstance(child, Tag):
+                if _is_ft(child):
+                    flush(_parse_ft_span(child))
                 else:
-                    pending_text += inner
-        elif isinstance(child, NavigableString):
-            pending_text += str(child)
+                    inner = child.get_text(" ", strip=False)
+                    raw_inner = re.sub(r"\s+", " ", inner).strip()
+                    if re.fullmatch(r"\d+", raw_inner):   # bare verse-number span
+                        flush([])
+                        new_verse(int(raw_inner))
+                    elif any(_is_ft(d) for d in child.descendants if isinstance(d, Tag)):
+                        # Non-ft tag that CONTAINS ft descendants — recurse
+                        walk(child)
+                    else:
+                        # Plain inline tag with no ft descendants — safe to get_text()
+                        pending_text += child.get_text(" ", strip=False)
+            elif isinstance(child, NavigableString):
+                pending_text += str(child)
+
+    walk(p_tag)
 
     # Flush any trailing text after the last ft span
     if pending_text.strip():
@@ -414,15 +429,26 @@ def print_structure(cp: ChapterPage, show_footnotes: bool = True) -> None:
                       f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")
         for p_i, para in enumerate(section.paragraphs, 1):
             print(f"   Paragraph {p_i}:")
+            # for verse in para.verses:
+            #     label = f"v{verse.number}" if verse.number is not None else "(line)"
+            #     print(f"     [{label}] {verse.plain_text[:80]}"
+            #           f"{'...' if len(verse.plain_text) > 80 else ''}")
+            #     if show_footnotes:
+            #         for chunk in verse.chunks:
+            #             for fn in chunk.footnotes:
+            #                 print(f"             [{fn.type.upper()}] "
+            #                       f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")
             for verse in para.verses:
-                label = f"v{verse.number}" if verse.number is not None else "(line)"
-                print(f"     [{label}] {verse.plain_text[:80]}"
-                      f"{'...' if len(verse.plain_text) > 80 else ''}")
-                if show_footnotes:
-                    for chunk in verse.chunks:
+                print(f"     [v{verse.number if verse.number is not None else '(line)'}] "
+                      f"{verse.plain_text[:80]}{'...' if len(verse.plain_text) > 80 else ''}"
+                    # f"{verse.plain_text}"
+                      )
+                for chunk in verse.chunks:
+                    if chunk.footnotes:
+                        print(f"       [chunk] {chunk.text[:60]}{'...' if len(chunk.text) > 60 else ''}")
                         for fn in chunk.footnotes:
-                            print(f"             [{fn.type.upper()}] "
-                                  f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")
+                            print(f"                 [{fn.type.upper()}] "
+                                    f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")   
 
 
 # ── Entry point ───────────────────────────────────────────────────────────────
@@ -430,7 +456,8 @@ def print_structure(cp: ChapterPage, show_footnotes: bool = True) -> None:
 if __name__ == "__main__":
     import sys
     URL = "https://www.bible.com/bible/107/GEN.1.NET"
-    with open("output.txt", "w", encoding="utf-8") as _f:
+    # URL = "https://www.bible.com/bible/107/PSA.119.NET"
+    with open("output_GN1_DOM.txt", "w", encoding="utf-8") as _f:
         sys.stdout = _f
         print(f"Scraping {URL} ...\n")
         chapter = scrape(URL)

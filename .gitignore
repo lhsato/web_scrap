@@ -10,4 +10,8 @@ utils/temp.txt
 utils/provinces.csv
 Titanic (1997) - full transcript.txt
 Titanic (1997) - full transcript_all.txt
-bibl*.py
+  
+app/claude/output.txt
+app/claude/output_PS_119_DOM.txt
+app/claude/output_GN1_DOM.txt
+app/claude/output.txt
