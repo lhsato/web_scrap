@@ -342,23 +342,30 @@ def _parse_heading(tag: Tag) -> tuple[str, list[Footnote]]:
     Most headings are plain text, e.g. "The Creation of the World".
     Some headings carry an ft span with a psalm intro note, e.g.:
         "Psalm 119<span class='ft'>sn Psalm 119. The psalmist...</span>"
+
+    The heading content may be wrapped in a non-ft span, so we recurse
+    rather than calling get_text() which would include ft descendants.
     """
     text_parts: list[str] = []
     footnotes:  list[Footnote] = []
 
-    for child in tag.children:
-        if isinstance(child, NavigableString):
-            text_parts.append(str(child))
-        elif isinstance(child, Tag):
-            classes = child.get("class", [])
-            # The heading ft span may use a hashed class like
-            # "ChapterContent-module__cat7xG__ft" rather than plain "ft",
-            # so we check for substring "ft" in any class name.
-            if CLS_FT in classes or any("ft" in c for c in classes):
-                footnotes.extend(_parse_ft_span(child))
-            else:
-                text_parts.append(child.get_text(" ", strip=False))
+    def _is_ft(t: Tag) -> bool:
+        classes = t.get("class", [])
+        return CLS_FT in classes or any("ft" in c for c in classes)
 
+    def walk(node: Tag) -> None:
+        for child in node.children:
+            if isinstance(child, NavigableString):
+                text_parts.append(str(child))
+            elif isinstance(child, Tag):
+                if _is_ft(child):
+                    footnotes.extend(_parse_ft_span(child))
+                elif any(_is_ft(d) for d in child.descendants if isinstance(d, Tag)):
+                    walk(child)   # wrapper containing ft spans — recurse
+                else:
+                    text_parts.append(child.get_text(" ", strip=False))
+
+    walk(tag)
     heading_text = re.sub(r"\s+", " ", "".join(text_parts)).strip()
     return heading_text, footnotes
 
@@ -440,9 +447,9 @@ def print_structure(cp: ChapterPage, show_footnotes: bool = True) -> None:
             #                       f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")
             for verse in para.verses:
                 print(f"     [v{verse.number if verse.number is not None else '(line)'}] "
-                      f"{verse.plain_text[:80]}{'...' if len(verse.plain_text) > 80 else ''}"
+                    f"{verse.plain_text[:80]}{'...' if len(verse.plain_text) > 80 else ''}"
                     # f"{verse.plain_text}"
-                      )
+                    )
                 for chunk in verse.chunks:
                     if chunk.footnotes:
                         print(f"       [chunk] {chunk.text[:60]}{'...' if len(chunk.text) > 60 else ''}")
@@ -451,13 +458,14 @@ def print_structure(cp: ChapterPage, show_footnotes: bool = True) -> None:
                                     f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")   
 
 
+
 # ── Entry point ───────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
     import sys
     URL = "https://www.bible.com/bible/107/GEN.1.NET"
-    # URL = "https://www.bible.com/bible/107/PSA.119.NET"
-    with open("output_GN1_DOM.txt", "w", encoding="utf-8") as _f:
+    URL = "https://www.bible.com/bible/107/PSA.119.NET"
+    with open("output.txt", "w", encoding="utf-8") as _f:
         sys.stdout = _f
         print(f"Scraping {URL} ...\n")
         chapter = scrape(URL)
