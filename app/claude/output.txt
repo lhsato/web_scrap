@@ -1,86 +1,1195 @@
-Scraping https://www.bible.com/bible/107/GEN.1.NET ...
+Scraping https://www.bible.com/bible/107/PSA.119.NET ...
 
 ======================================================================
-title       : Genesis 1
-book/ch/ver : GEN / 1 / NET
-url         : https://www.bible.com/bible/107/GEN.1.NET
-sections    : 1
-verses      : 60
-footnotes   : 0  (tn=0, sn=0, tc=0)
+title       : Psalms 119
+book/ch/ver : PSA / 119 / NET
+url         : https://www.bible.com/bible/107/PSA.119.NET
+sections    : 2
+verses      : 376
+footnotes   : 214  (tn=211, sn=3, tc=0)
 ======================================================================
 
--- Section 1: The Creation of the World
+-- Section 1: Psalm 119
+
+-- Section 2: (no heading)
+   [SN] Psalm 119. The psalmist celebrates God’s law and the guidance it provides his people. He expresses his desire to know God’s law thoroughly so that he might experience the blessings that come to those who obey it. This lengthy psalm exhibits an elaborate acrostic pattern. The psalm is divided into twenty-two sections (corresponding to the letters of the Hebrew alphabet), each of which is comprised of eight verses. Each of the verses in the first section (vv. 1-8) begins with the letter alef (א), the first letter of the Hebrew alphabet. This pattern continues throughout the psalm as each new section highlights a successive letter of the alphabet. Each verse in section two (vv. 9-16) begins with the second letter of the alphabet, each verse in section three (vv. 17-24) with the third letter, etc. This rigid pattern creates a sense of order and completeness and may have facilitated memorization.
    Paragraph 1:
-     [v1] In the beginning # tn The translation assumes that the form translated “beginnin...
-     [v1] is a main clause, v.
-     [v2] has three clauses that are descriptive and supply background information, and v.
-     [v3] begins the narrative sequence proper. The referent of the word “beginning” has t...
-     [v2] break the sequence of the creative work of the first day. (2) It may be taken as...
-     [v10] and Exod 20:11).
+     [v(line)] א (Alef)
    Paragraph 2:
-     [v2] Now # tn The disjunctive clause (conjunction + subject + verb) at the beginning ...
-     [v2] gives background information for the following narrative, explaining the state o...
-     [v2] provides information about the state of things when God spoke, and v.
-     [v3] begins the narrative per se with the typical narrative construction (vav [ו] con...
-     [v1] describes the original creation of the earth, while v.
-     [v2] refers to a judgment that reduced it to a chaotic condition. Verses 3ff. then de...
-     [v2] cannot be translated as if it were relating the next event in a sequence. If v.
-     [v2] were sequential to v. 1, the author would have used the vav consecutive followed...
-     [v1] Sam 10:10; 11:6; 19:20, 23; Ezek 11:24;
-     [v2] Chr 15:1; 24:20). was moving # tn The Hebrew verb has been translated “hovering”...
-     [v3] God said, # tn The prefixed verb form with the vav (ו) consecutive introduces th...
-     [v1] Cor 8:6, and Col 1:16.sn God said. By speaking, God brings the world into existe...
-     [v4] God saw # tn Heb “And God saw the light, that it was good.” The verb “saw” in th...
-     [v5] God called # tn Heb “he called to,” meaning “he named.”sn God called. Seven time...
-     [v2] Kgs 23:34). In this verse God is sovereign even over the darkness. the light “da...
+     [v1] How blessed are those whose actions are blameless,#
+       [chunk] How blessed are those whose actions are blameless,#
+                 [TN] Heb “[Oh] the happiness of those who are blameless of way.”
    Paragraph 3:
-     [v6] God said, “Let there be an expanse # tn The Hebrew word refers to an expanse of ...
-     [v8] it is called “sky.”sn An expanse. In the poetic texts the writers envision, amon...
-     [v7] So God made the expanse and separated the water under the expanse from the water...
-     [v8] God called the expanse “sky.” # tn Though the Hebrew word can mean “heaven,” it ...
+     [v(line)] who obey# the law of the Lord.
+       [chunk] who obey#
+                 [TN] Heb “walk in.”
    Paragraph 4:
-     [v9] God said, “Let the water under the sky be gathered to one place # sn Let the wat...
-     [v10] God called the dry ground “land” # tn Heb “earth,” but here the term refers to t...
+     [v2] How blessed are those who observe his rules,
    Paragraph 5:
-     [v11] God said, “Let the land produce vegetation: # tn The Hebrew construction employs...
-     [v29] and
-     [v30] the word vegetation/grass does not appear. The Samaritan Pentateuch adds an “and...
-     [v12] The land produced vegetation – plants yielding seeds according to their kinds, a...
-     [v13] There was evening, and there was morning, a third day.
+     [v(line)] and seek him with all their heart,
    Paragraph 6:
-     [v14] God said, “Let there be lights # sn Let there be lights. Light itself was create...
-     [v15] and let them serve as lights in the expanse of the sky to give light on the eart...
-     [v16] God made two great lights # sn Two great lights. The text goes to great length t...
-     [v46] [1974]: 81-102). The Book of Genesis is affirming they are created entities, not...
-     [v17] God placed the lights # tn Heb “them”; the referent (the lights mentioned in the...
-     [v18] to preside over the day and the night, and to separate the light from the darkne...
-     [v19] There was evening, and there was morning, a fourth day.
+     [v3] who, moreover, do no wrong,
    Paragraph 7:
-     [v20] God said, “Let the water swarm with swarms # tn The Hebrew text again uses a cog...
-     [v21] God created the great sea creatures # tn For the first time in the narrative pro...
-     [v22] God blessed them # tn While the translation “blessed” has been retained here for...
-     [v23] There was evening, and there was morning, a fifth day.
+     [v(line)] but follow in his footsteps.#
+       [chunk] but follow in his footsteps.#
+                 [TN] Heb “walk in his ways.”
    Paragraph 8:
-     [v24] God said, “Let the land produce living creatures according to their kinds: cattl...
-     [v25] God made the wild animals according to their kinds, the cattle according to thei...
+     [v4] You demand that your precepts
    Paragraph 9:
-     [v26] Then God said, “Let us make # sn The plural form of the verb has been the subjec...
-     [v2] Sam 24:14 David uses the plural as representative of all Israel, and in Isa 6:8 ...
-     [v1] Kgs 22:19-22; Job 1:6-12; 2:1-6; Isa 6:1-8). (The most well-known members of thi...
-     [v3] [1974]: 19-25). The word דְּמוּת (dÿmut, “likeness”) is an abstract noun; its ve...
-     [v2] Sam 3:21). God’s purpose in giving humankind his image is that they might rule t...
+     [v(line)] be carefully kept.#
+       [chunk] be carefully kept.#
+                 [TN] Heb “you, you commanded your precepts, to keep, very much.”
    Paragraph 10:
-     [v27] God created humankind # tn The Hebrew text has the article prefixed to the noun ...
+     [v5] If only I were predisposed#
+       [chunk] If only I were predisposed#
+                 [TN] Heb “if only my ways were established.”
    Paragraph 11:
-     [(line)] in the image of God he created them, # tn The third person suffix on the particl...
+     [v(line)] to keep your statutes!
    Paragraph 12:
-     [(line)] male and female he created them. # sn The distinction of “humankind” as “male” a...
+     [v6] Then I would not be ashamed,
    Paragraph 13:
-     [v28] God blessed # tn As in v.
-     [v22] the verb “bless” here means “to endow with the capacity to reproduce and be frui...
-     [v2] Sam 8:11;
-     [v1] Chr 22:18; Zech 9:13; and probably Mic 7:19), and “to assault sexually” (Esth 7:...
-     [v29] Then God said, “I now # tn The text uses הִנֵּה (hinneh), often archaically tran...
-     [v30] And to all the animals of the earth, and to every bird of the air, and to all th...
+     [v(line)] if# I were focused on# all your commands.
+       [chunk] if#
+                 [TN] Or “when.”
+       [chunk] I were focused on#
+                 [TN] Heb “I gaze at.”
    Paragraph 14:
-     [v31] God saw all that he had made – and it was very good! # tn The Hebrew text again ...
+     [v7] I will give you sincere thanks,#
+       [chunk] I will give you sincere thanks,#
+                 [TN] Heb “I will give you thanks with an upright heart.”
+   Paragraph 15:
+     [v(line)] when I learn your just regulations.
+   Paragraph 16:
+     [v8] I will keep your statutes.
+   Paragraph 17:
+     [v(line)] Do not completely abandon me!#
+       [chunk] Do not completely abandon me!#
+                 [TN] Heb “do not abandon me to excess.” For other uses of the phrase עַד מְאֹד (’ad mÿ’od,...
+   Paragraph 18:
+     [v(line)] ב ( Bet )
+   Paragraph 19:
+     [v9] How can a young person# maintain a pure life?#
+       [chunk] How can a young person#
+                 [TN] Heb “young man.” Hebrew wisdom literature often assumes and reflects the male-oriente...
+       [chunk] maintain a pure life?#
+                 [TN] Heb “purify his path.”
+   Paragraph 20:
+     [v(line)] By guarding it according to your instructions!#
+       [chunk] By guarding it according to your instructions!#
+                 [TN] Heb “by keeping according to your word.” Many medieval Hebrew mss as well as the LXX ...
+   Paragraph 21:
+     [v10] With all my heart I seek you.
+   Paragraph 22:
+     [v(line)] Do not allow me to stray from your commands!
+   Paragraph 23:
+     [v11] In my heart I store up# your words,#
+       [chunk] In my heart I store up#
+                 [TN] Or “hide.”
+       [chunk] your words,#
+                 [TN] Heb “your word.” Some medieval Hebrew mss as well as the LXX read the plural, “your w...
+   Paragraph 24:
+     [v(line)] so I might not sin against you.
+   Paragraph 25:
+     [v12] You deserve praise,# O Lord!
+       [chunk] You deserve praise,#
+                 [TN] Heb “[are] blessed.”
+   Paragraph 26:
+     [v(line)] Teach me your statutes!
+   Paragraph 27:
+     [v13] With my lips I proclaim
+   Paragraph 28:
+     [v(line)] all the regulations you have revealed.#
+       [chunk] all the regulations you have revealed.#
+                 [TN] Heb “of your mouth.”
+   Paragraph 29:
+     [v14] I rejoice in the lifestyle prescribed by your rules#
+       [chunk] I rejoice in the lifestyle prescribed by your rules#
+                 [TN] Heb “in the way of your rules.”
+   Paragraph 30:
+     [v(line)] as if# they were riches of all kinds.#
+       [chunk] as if#
+                 [TN] Heb “as upon,” meaning “as if” (see 2 Chr 32:19).
+       [chunk] they were riches of all kinds.#
+                 [TN] Heb “all wealth.” The phrase refers to all kinds of wealth and riches. See Prov 1:13;...
+   Paragraph 31:
+     [v15] I will meditate on# your precepts
+       [chunk] I will meditate on#
+                 [TN] The cohortative verbal forms in this verse express the psalmist’s resolve.
+   Paragraph 32:
+     [v(line)] and focus# on your behavior.#
+       [chunk] and focus#
+                 [TN] Heb “gaze [at].”
+       [chunk] on your behavior.#
+                 [TN] Heb “ways” (referring figuratively to God’s behavior here).
+   Paragraph 33:
+     [v16] I find delight# in your statutes;
+       [chunk] I find delight#
+                 [TN] The imperfects in this verse emphasize the attitude the psalmist maintains toward God...
+   Paragraph 34:
+     [v(line)] I do not forget your instructions.#
+       [chunk] I do not forget your instructions.#
+                 [TN] Heb “your word.” Many medieval Hebrew mss as well as the LXX read the plural here.
+   Paragraph 35:
+     [v(line)] ג ( Gimel )
+   Paragraph 36:
+     [v17] Be kind to your servant!
+   Paragraph 37:
+     [v(line)] Then I will live# and keep# your instructions.#
+       [chunk] Then I will live#
+                 [TN] The prefixed verbal form is probably a cohortative indicating purpose/result after th...
+       [chunk] and keep#
+                 [TN] The cohortative with vav (ו) conjunctive indicates purpose/result after the imperativ...
+       [chunk] your instructions.#
+                 [TN] Heb “your word.” Many medieval Hebrew mss as well as several ancient versions read th...
+   Paragraph 38:
+     [v18] Open# my eyes so I can truly see#
+       [chunk] Open#
+                 [TN] Heb “uncover.” The verb form גַּל (gal) is an apocopated Piel imperative from גָּלָה ...
+       [chunk] my eyes so I can truly see#
+                 [TN] The cohortative with vav (ו) conjunctive indicates purpose/result after the preceding...
+   Paragraph 39:
+     [v(line)] the marvelous things in your law!
+   Paragraph 40:
+     [v19] I am like a foreigner in this land.#
+       [chunk] I am like a foreigner in this land.#
+                 [TN] Heb “I am a resident alien in the land.” Resident aliens were especially vulnerable a...
+   Paragraph 41:
+     [v(line)] Do not hide your commands from me!
+   Paragraph 42:
+     [v20] I desperately long to know#
+       [chunk] I desperately long to know#
+                 [TN] Heb “my soul languishes for longing for.”
+   Paragraph 43:
+     [v(line)] your regulations at all times.
+   Paragraph 44:
+     [v21] You reprimand arrogant people.
+   Paragraph 45:
+     [v(line)] Those who stray from your commands are doomed.#
+       [chunk] Those who stray from your commands are doomed.#
+                 [TN] Heb “accursed.” The traditional punctuation of the Hebrew text takes “accursed” with ...
+   Paragraph 46:
+     [v22] Spare me# shame and humiliation,
+       [chunk] Spare me#
+                 [TN] Heb “roll away from upon me.” Some derive the imperatival form גַּל (gal) from גָּלָה...
+   Paragraph 47:
+     [v(line)] for I observe your rules.
+   Paragraph 48:
+     [v23] Though rulers plot and slander me,#
+       [chunk] Though rulers plot and slander me,#
+                 [TN] Heb “though rulers sit, about me they talk together.” (For another example of the Nip...
+   Paragraph 49:
+     [v(line)] your servant meditates on your statutes.
+   Paragraph 50:
+     [v24] Yes, I find delight in your rules;
+   Paragraph 51:
+     [v(line)] they give me guidance.#
+       [chunk] they give me guidance.#
+                 [TN] Heb “men of my counsel.” That is, God’s rules are like advisers to the psalmist, for ...
+   Paragraph 52:
+     [v(line)] ד ( Dalet )
+   Paragraph 53:
+     [v25] I collapse in the dirt.#
+       [chunk] I collapse in the dirt.#
+                 [TN] Heb “my soul clings to the dirt.” The Hebrew term נֶפֶשׁ (nefesh, “being; soul”) with...
+   Paragraph 54:
+     [v(line)] Revive me with your word!#
+       [chunk] Revive me with your word!#
+                 [TN] Heb “according to your word.” Many medieval Hebrew mss read the plural “your words.”
+   Paragraph 55:
+     [v26] I told you about my ways# and you answered me.
+       [chunk] I told you about my ways#
+                 [TN] Heb “my ways I proclaimed.”
+   Paragraph 56:
+     [v(line)] Teach me your statutes!
+   Paragraph 57:
+     [v27] Help me to understand what your precepts mean!#
+       [chunk] Help me to understand what your precepts mean!#
+                 [TN] Heb “the way of your precepts make me understand.”
+   Paragraph 58:
+     [v(line)] Then I can meditate# on your marvelous teachings.#
+       [chunk] Then I can meditate#
+                 [TN] The cohortative with vav (ו) conjunctive indicates purpose/result after the preceding...
+       [chunk] on your marvelous teachings.#
+                 [TN] Heb “your amazing things,” which refers here to the teachings of the law (see v. 18).
+   Paragraph 59:
+     [v28] I collapse# from grief.
+       [chunk] I collapse#
+                 [TN] Some translate “my soul weeps,” taking the verb דָלַף (dalaf) from a root meaning “to...
+   Paragraph 60:
+     [v(line)] Sustain me by your word!#
+       [chunk] Sustain me by your word!#
+                 [TN] Heb “according to your word.” Many medieval Hebrew mss read the plural “your words.”
+   Paragraph 61:
+     [v29] Remove me from the path of deceit!#
+       [chunk] Remove me from the path of deceit!#
+                 [TN] The “path of deceit” refers to a lifestyle characterized by deceit and disloyalty to ...
+   Paragraph 62:
+     [v(line)] Graciously give me# your law!
+       [chunk] Graciously give me#
+                 [TN] Heb “be gracious to me.” The verb is used metonymically here for “graciously giving” ...
+   Paragraph 63:
+     [v30] I choose the path of faithfulness;
+   Paragraph 64:
+     [v(line)] I am committed to# your regulations.
+       [chunk] I am committed to#
+                 [TN] BDB 1000-1001 s.v. I שָׁוָה derives the verb from the first homonym listed, meaning “...
+   Paragraph 65:
+     [v31] I hold fast# to your rules.
+       [chunk] I hold fast#
+                 [TN] Or “cling to.”
+   Paragraph 66:
+     [v(line)] O Lord , do not let me be ashamed!
+   Paragraph 67:
+     [v32] I run along the path of your commands,
+   Paragraph 68:
+     [v(line)] for you enable me to do so.#
+       [chunk] for you enable me to do so.#
+                 [TN] Heb “for you make wide my heart.” The “heart” is viewed here as the seat of the psalm...
+   Paragraph 69:
+     [v(line)] ה ( He )
+   Paragraph 70:
+     [v33] Teach me, O Lord, the lifestyle prescribed by your statutes,#
+       [chunk] Teach me, O Lord, the lifestyle prescribed by your statutes,...
+                 [TN] Heb “the way of your statutes.”
+   Paragraph 71:
+     [v(line)] so that I might observe it continually.#
+       [chunk] so that I might observe it continually.#
+                 [TN] Heb “and I will keep it to the end.” The prefixed verbal form with vav (ו) conjunctiv...
+   Paragraph 72:
+     [v34] Give me understanding so that I might observe your law,
+   Paragraph 73:
+     [v(line)] and keep it with all my heart.#
+       [chunk] and keep it with all my heart.#
+                 [TN] The two prefixed verbal forms with vav (ו) conjunctive indicate purpose/result after ...
+   Paragraph 74:
+     [v35] Guide me# in the path of your commands,
+       [chunk] Guide me#
+                 [TN] Or “make me walk.”
+   Paragraph 75:
+     [v(line)] for I delight to walk in it.#
+       [chunk] for I delight to walk in it.#
+                 [TN] Heb “for in it I delight.”
+   Paragraph 76:
+     [v36] Give me a desire for your rules,#
+       [chunk] Give me a desire for your rules,#
+                 [TN] Heb “turn my heart to your rules.”
+   Paragraph 77:
+     [v(line)] rather than for wealth gained unjustly.#
+       [chunk] rather than for wealth gained unjustly.#
+                 [TN] Heb “and not unjust gain.”
+   Paragraph 78:
+     [v37] Turn my eyes away from what is worthless!#
+       [chunk] Turn my eyes away from what is worthless!#
+                 [TN] Heb “Make my eyes pass by from looking at what is worthless.”
+   Paragraph 79:
+     [v(line)] Revive me with your word!#
+       [chunk] Revive me with your word!#
+                 [TN] Heb “by your word.”
+   Paragraph 80:
+     [v38] Confirm to your servant your promise,#
+       [chunk] Confirm to your servant your promise,#
+                 [TN] Heb “word.”
+   Paragraph 81:
+     [v(line)] which you made to the one who honors you.#
+       [chunk] which you made to the one who honors you.#
+                 [TN] Heb “which [is] for your fear,” that is, the promise made to those who exhibit fear o...
+   Paragraph 82:
+     [v39] Take away the insults that I dread!#
+       [chunk] Take away the insults that I dread!#
+                 [TN] Heb “my reproach that I fear.”
+   Paragraph 83:
+     [v(line)] Indeed,# your regulations are good.
+       [chunk] Indeed,#
+                 [TN] Or “for.”
+   Paragraph 84:
+     [v40] Look, I long for your precepts.
+   Paragraph 85:
+     [v(line)] Revive me with your deliverance!#
+       [chunk] Revive me with your deliverance!#
+                 [TN] Or “righteousness.”
+   Paragraph 86:
+     [v(line)] ו ( Vav )
+   Paragraph 87:
+     [v41] May I experience your loyal love,# O Lord,
+       [chunk] May I experience your loyal love,#
+                 [TN] Heb “and may your loyal love come to me.”
+   Paragraph 88:
+     [v(line)] and your deliverance,# as you promised.#
+       [chunk] and your deliverance,#
+                 [TN] Or “salvation” (so many English versions).
+       [chunk] as you promised.#
+                 [TN] Heb “according to your word.”
+   Paragraph 89:
+     [v42] Then I will have a reply for the one who insults me,#
+       [chunk] Then I will have a reply for the one who insults me,#
+                 [TN] Heb “and I will answer [the] one who insults me a word.” The prefixed verbal form wit...
+   Paragraph 90:
+     [v(line)] for I trust in your word.
+   Paragraph 91:
+     [v43] Do not completely deprive me of a truthful testimony,#
+       [chunk] Do not completely deprive me of a truthful testimony,#
+                 [TN] Heb “do not snatch from my mouth a word of truth to excess.” The psalmist wants to be...
+   Paragraph 92:
+     [v(line)] for I await your justice.
+   Paragraph 93:
+     [v44] Then I will keep# your law continually
+       [chunk] Then I will keep#
+                 [TN] The cohortative verbal form with vav (ו) conjunctive indicates purpose/result after t...
+   Paragraph 94:
+     [v(line)] now and for all time.#
+       [chunk] now and for all time.#
+                 [TN] Or “forever and ever.”
+   Paragraph 95:
+     [v45] I will be secure,#
+       [chunk] I will be secure,#
+                 [TN] Heb “and I will walk about in a wide place.” The cohortative with prefixed vav (ו) co...
+   Paragraph 96:
+     [v(line)] for I seek your precepts.
+   Paragraph 97:
+     [v46] I will speak# about your regulations before kings
+       [chunk] I will speak#
+                 [TN] The series of four cohortatives with prefixed vav (ו) conjunctive in vv. 46-48 list f...
+   Paragraph 98:
+     [v(line)] and not be ashamed.
+   Paragraph 99:
+     [v47] I will find delight in your commands,
+   Paragraph 100:
+     [v(line)] which I love.
+   Paragraph 101:
+     [v48] I will lift my hands to# your commands,
+       [chunk] I will lift my hands to#
+                 [TN] Lifting the hands is often associated with prayer (Pss 28:2; 63:4; Lam 2:19). (1) Bec...
+   Paragraph 102:
+     [v(line)] which I love,
+   Paragraph 103:
+     [v(line)] and I will meditate on your statutes.
+   Paragraph 104:
+     [v(line)] ז ( Zayin )
+   Paragraph 105:
+     [v49] Remember your word to your servant,
+   Paragraph 106:
+     [v(line)] for you have given me hope.
+   Paragraph 107:
+     [v50] This# is what comforts me in my trouble,
+       [chunk] This#
+                 [TN] The demonstrative “this” refers back to the hope just mentioned or forward to the sta...
+   Paragraph 108:
+     [v(line)] for your promise revives me.#
+       [chunk] for your promise revives me.#
+                 [TN] The hope generated by the promise (see v. 49b) brings comfort because (note “for” at ...
+   Paragraph 109:
+     [v51] Arrogant people do nothing but scoff at me.#
+       [chunk] Arrogant people do nothing but scoff at me.#
+                 [TN] Heb “scoff at me to excess.”
+   Paragraph 110:
+     [v(line)] Yet I do not turn aside from your law.
+   Paragraph 111:
+     [v52] I remember your ancient regulations,#
+       [chunk] I remember your ancient regulations,#
+                 [TN] Heb “I remember your regulations from of old.” The prepositional phrase “from of old”...
+   Paragraph 112:
+     [v(line)] O Lord, and console myself.#
+       [chunk] O Lord, and console myself.#
+                 [TN] Or “find comfort.”
+   Paragraph 113:
+     [v53] Rage takes hold of me because of the wicked,
+   Paragraph 114:
+     [v(line)] those who reject your law.
+   Paragraph 115:
+     [v54] Your statutes have been my songs#
+       [chunk] Your statutes have been my songs#
+                 [TN] Heb “songs were your statutes to me.”
+   Paragraph 116:
+     [v(line)] in the house where I live.#
+       [chunk] in the house where I live.#
+                 [TN] Heb “in the house of my dwelling place.” Some take the Hebrew noun מָגוֹר (magor) in ...
+   Paragraph 117:
+     [v55] I remember your name during the night, O Lord ,
+   Paragraph 118:
+     [v(line)] and I will keep# your law.
+       [chunk] and I will keep#
+                 [TN] The cohortative verbal form expresses the psalmist’s resolve to obey the law.
+   Paragraph 119:
+     [v56] This# has been my practice,
+       [chunk] This#
+                 [TN] Heb “this has been to me.” The demonstrative “this” (1) refers back to the practices ...
+   Paragraph 120:
+     [v(line)] for I observe your precepts.
+   Paragraph 121:
+     [v(line)] ח ( Khet )
+   Paragraph 122:
+     [v57] The Lord is my source of security.#
+       [chunk] The Lord is my source of security.#
+                 [TN] Heb “my portion [is] the Lord.” The psalmist compares the Lord to landed property, wh...
+   Paragraph 123:
+     [v(line)] I have determined# to follow your instructions.#
+       [chunk] I have determined#
+                 [TN] Heb “I said.”
+       [chunk] to follow your instructions.#
+                 [TN] Heb “to keep your words” (see v. 9).
+   Paragraph 124:
+     [v58] I seek your favor# with all my heart.
+       [chunk] I seek your favor#
+                 [TN] Heb “I appease your face.”
+   Paragraph 125:
+     [v(line)] Have mercy on me as you promised!#
+       [chunk] Have mercy on me as you promised!#
+                 [TN] Heb “according to your word.”
+   Paragraph 126:
+     [v59] I consider my actions#
+       [chunk] I consider my actions#
+                 [TN] Heb “my ways.”
+   Paragraph 127:
+     [v(line)] and follow# your rules.
+       [chunk] and follow#
+                 [TN] Heb “and I turn my feet toward.”
+   Paragraph 128:
+     [v60] I keep your commands
+   Paragraph 129:
+     [v(line)] eagerly and without delay.#
+       [chunk] eagerly and without delay.#
+                 [TN] Heb “I hurry and I do not delay to keep your commands.”
+   Paragraph 130:
+     [v61] The ropes of the wicked tighten around# me,
+       [chunk] The ropes of the wicked tighten around#
+                 [TN] Heb “surround.”
+   Paragraph 131:
+     [v(line)] but I do not forget your law.
+   Paragraph 132:
+     [v62] In the middle of the night I arise# to thank you
+       [chunk] In the middle of the night I arise#
+                 [TN] The psalmist uses an imperfect verbal form to emphasize that this is his continuing p...
+   Paragraph 133:
+     [v(line)] for your just regulations.
+   Paragraph 134:
+     [v63] I am a friend to all your loyal followers,#
+       [chunk] I am a friend to all your loyal followers,#
+                 [TN] Heb “to all who fear you.”
+   Paragraph 135:
+     [v(line)] and to those who keep your precepts.
+   Paragraph 136:
+     [v64] O Lord , your loyal love fills the earth.
+   Paragraph 137:
+     [v(line)] Teach me your statutes!
+   Paragraph 138:
+     [v(line)] ט ( Tet )
+   Paragraph 139:
+     [v65] You are good# to your servant,
+       [chunk] You are good#
+                 [TN] Heb “do good.”
+   Paragraph 140:
+     [v(line)] O Lord, just as you promised.#
+       [chunk] O Lord, just as you promised.#
+                 [TN] Heb “according to your word.”
+   Paragraph 141:
+     [v66] Teach me proper discernment# and understanding!
+       [chunk] Teach me proper discernment#
+                 [TN] Heb “goodness of taste.” Here “taste” refers to moral and ethical discernment.
+   Paragraph 142:
+     [v(line)] For I consider your commands to be reliable.#
+       [chunk] For I consider your commands to be reliable.#
+                 [TN] Heb “for I believe in your commands.”
+   Paragraph 143:
+     [v67] Before I was afflicted I used to stray off,#
+       [chunk] Before I was afflicted I used to stray off,#
+                 [TN] Heb “before I suffered, I was straying off.”
+   Paragraph 144:
+     [v(line)] but now I keep your instructions.#
+       [chunk] but now I keep your instructions.#
+                 [TN] Heb “your word.”
+   Paragraph 145:
+     [v68] You are good and you do good.
+   Paragraph 146:
+     [v(line)] Teach me your statutes!
+   Paragraph 147:
+     [v69] Arrogant people smear my reputation with lies,#
+       [chunk] Arrogant people smear my reputation with lies,#
+                 [TN] Heb “smear over me a lie.”
+   Paragraph 148:
+     [v(line)] but I observe your precepts with all my heart.
+   Paragraph 149:
+     [v70] Their hearts are calloused,#
+       [chunk] Their hearts are calloused,#
+                 [TN] Heb “their heart is insensitive like fat.”
+   Paragraph 150:
+     [v(line)] but I find delight in your law.
+   Paragraph 151:
+     [v71] It was good for me to suffer,
+   Paragraph 152:
+     [v(line)] so that I might learn your statutes.
+   Paragraph 153:
+     [v72] The law you have revealed is more important to me
+   Paragraph 154:
+     [v(line)] than thousands of pieces of gold and silver.#
+       [chunk] than thousands of pieces of gold and silver.#
+                 [TN] Heb “better to me [is] the law of your mouth than thousands of gold and silver.”
+   Paragraph 155:
+     [v(line)] י ( Yod )
+   Paragraph 156:
+     [v73] Your hands made me and formed me.#
+       [chunk] Your hands made me and formed me.#
+                 [TN] Heb “made me and established me.” The two verbs also appear together in Deut 32:6, wh...
+   Paragraph 157:
+     [v(line)] Give me understanding so that I might learn# your commands.
+       [chunk] Give me understanding so that I might learn#
+                 [TN] The cohortative verbal form with vav (ו) conjunctive indicates purpose/result after t...
+   Paragraph 158:
+     [v74] Your loyal followers will be glad when they see me,#
+       [chunk] Your loyal followers will be glad when they see me,#
+                 [TN] Heb “those who fear you will see me and rejoice.”
+   Paragraph 159:
+     [v(line)] for I find hope in your word.
+   Paragraph 160:
+     [v75] I know, Lord, that your regulations# are just.
+       [chunk] I know, Lord, that your regulations#
+                 [TN] In this context (note the second line) the Hebrew term מִשְׁפָּטִים (mishpatim), whic...
+   Paragraph 161:
+     [v(line)] You disciplined me because of your faithful devotion to me.#
+       [chunk] You disciplined me because of your faithful devotion to me.#
+                 [TN] Heb “and [in] faithfulness you afflicted me.”
+   Paragraph 162:
+     [v76] May your loyal love console me,
+   Paragraph 163:
+     [v(line)] as you promised your servant.#
+       [chunk] as you promised your servant.#
+                 [TN] Heb “according to your word to your servant.”
+   Paragraph 164:
+     [v77] May I experience your compassion,# so I might live!
+       [chunk] May I experience your compassion,#
+                 [TN] Heb “and may your compassion come to me.”
+   Paragraph 165:
+     [v(line)] For I find delight in your law.
+   Paragraph 166:
+     [v78] May the arrogant be humiliated, for they have slandered me!#
+       [chunk] May the arrogant be humiliated, for they have slandered me!#
+                 [TN] Heb “for [with] falsehood they have denied me justice.”
+   Paragraph 167:
+     [v(line)] But I meditate on your precepts.
+   Paragraph 168:
+     [v79] May your loyal followers# turn to me,
+       [chunk] May your loyal followers#
+                 [TN] Heb “those who fear you.”
+   Paragraph 169:
+     [v(line)] those who know your rules.
+   Paragraph 170:
+     [v80] May I be fully committed to your statutes,#
+       [chunk] May I be fully committed to your statutes,#
+                 [TN] Heb “may my heart be complete in your statutes.”
+   Paragraph 171:
+     [v(line)] so that I might not be ashamed.
+   Paragraph 172:
+     [v(line)] כ ( Kaf )
+   Paragraph 173:
+     [v81] I desperately long for# your deliverance.
+       [chunk] I desperately long for#
+                 [TN] Heb “my soul pines for.” See Ps 84:2.
+   Paragraph 174:
+     [v(line)] I find hope in your word.
+   Paragraph 175:
+     [v82] My eyes grow tired as I wait for your promise to be fulfilled.#
+       [chunk] My eyes grow tired as I wait for your promise to be fulfille...
+                 [TN] Heb “my eyes fail for your word.” The psalmist has intently kept his eyes open, looki...
+   Paragraph 176:
+     [v(line)] I say,# “When will you comfort me?”
+       [chunk] I say,#
+                 [TN] Heb “saying.”
+   Paragraph 177:
+     [v83] For# I am like a wineskin# dried up in smoke.#
+       [chunk] For#
+                 [TN] Or “even though.”
+       [chunk] I am like a wineskin#
+                 [TN] The Hebrew word נֹאד (no’d, “leather container”) refers to a container made from anim...
+       [chunk] dried up in smoke.#
+                 [TN] Heb “in the smoke.”
+   Paragraph 178:
+     [v(line)] I do not forget your statutes.
+   Paragraph 179:
+     [v84] How long must your servant endure this?#
+       [chunk] How long must your servant endure this?#
+                 [TN] Heb “How long are the days of your servant?”
+   Paragraph 180:
+     [v(line)] When will you judge those who pursue me?
+   Paragraph 181:
+     [v85] The arrogant dig pits to trap me,#
+       [chunk] The arrogant dig pits to trap me,#
+                 [TN] Heb “for me.”
+   Paragraph 182:
+     [v(line)] which violates your law.#
+       [chunk] which violates your law.#
+                 [TN] Heb “which [is] not according to your law.”
+   Paragraph 183:
+     [v86] All your commands are reliable.
+   Paragraph 184:
+     [v(line)] I am pursued without reason.# Help me!
+       [chunk] I am pursued without reason.#
+                 [SN] God’s commands are a reliable guide to right and wrong. By keeping them the psalmist ...
+   Paragraph 185:
+     [v87] They have almost destroyed me here on the earth,
+   Paragraph 186:
+     [v(line)] but I do not reject your precepts.
+   Paragraph 187:
+     [v88] Revive me with# your loyal love,
+       [chunk] Revive me with#
+                 [TN] Heb “according to.”
+   Paragraph 188:
+     [v(line)] that I might keep# the rules you have revealed.#
+       [chunk] that I might keep#
+                 [TN] The cohortative verbal form with vav (ו) conjunctive indicates purpose/result after t...
+       [chunk] the rules you have revealed.#
+                 [TN] Heb “of your mouth.”
+   Paragraph 189:
+     [v(line)] ל ( Lamed )
+   Paragraph 190:
+     [v89] O Lord , your instructions endure;
+   Paragraph 191:
+     [v(line)] they stand secure in heaven.#
+       [chunk] they stand secure in heaven.#
+                 [TN] Heb “Forever, O Lord, your word stands firm in heaven,” or “Forever, O Lord, [is] you...
+   Paragraph 192:
+     [v90] You demonstrate your faithfulness to all generations.#
+       [chunk] You demonstrate your faithfulness to all generations.#
+                 [TN] Heb “to a generation and a generation [is] your faithfulness.”
+   Paragraph 193:
+     [v(line)] You established the earth and it stood firm.
+   Paragraph 194:
+     [v91] Today they stand firm by your decrees,
+   Paragraph 195:
+     [v(line)] for all things are your servants.
+   Paragraph 196:
+     [v92] If I had not found encouragement in your law,#
+       [chunk] If I had not found encouragement in your law,#
+                 [TN] Heb “if your law had not been my delight.”
+   Paragraph 197:
+     [v(line)] I would have died in my sorrow.#
+       [chunk] I would have died in my sorrow.#
+                 [TN] Or “my suffering.”
+   Paragraph 198:
+     [v93] I will never forget your precepts,
+   Paragraph 199:
+     [v(line)] for by them you have revived me.
+   Paragraph 200:
+     [v94] I belong to you. Deliver me!
+   Paragraph 201:
+     [v(line)] For I seek your precepts.
+   Paragraph 202:
+     [v95] The wicked prepare to kill me,#
+       [chunk] The wicked prepare to kill me,#
+                 [TN] Heb “the wicked wait for me to kill me.”
+   Paragraph 203:
+     [v(line)] yet I concentrate on your rules.
+   Paragraph 204:
+     [v96] I realize that everything has its limits,
+   Paragraph 205:
+     [v(line)] but your commands are beyond full comprehension.#
+       [chunk] but your commands are beyond full comprehension.#
+                 [TN] Heb “to every perfection I have seen an end, your command is very wide.” God’s law is...
+   Paragraph 206:
+     [v(line)] מ ( Mem )
+   Paragraph 207:
+     [v97] O how I love your law!
+   Paragraph 208:
+     [v(line)] All day long I meditate on it.
+   Paragraph 209:
+     [v98] Your commandments# make me wiser than my enemies,
+       [chunk] Your commandments#
+                 [TN] The plural form needs to be revocalized as a singular in order to agree with the prec...
+   Paragraph 210:
+     [v(line)] for I am always aware of them.
+   Paragraph 211:
+     [v99] I have more insight than all my teachers,
+   Paragraph 212:
+     [v(line)] for I meditate on your rules.
+   Paragraph 213:
+     [v100] I am more discerning than those older than I,
+   Paragraph 214:
+     [v(line)] for I observe your precepts.
+   Paragraph 215:
+     [v101] I stay away# from the evil path,
+       [chunk] I stay away#
+                 [TN] Heb “I hold back my feet.”
+   Paragraph 216:
+     [v(line)] so that I might keep your instructions.#
+       [chunk] so that I might keep your instructions.#
+                 [TN] Heb “your word.” Many medieval Hebrew mss read the plural.
+   Paragraph 217:
+     [v102] I do not turn aside from your regulations,
+   Paragraph 218:
+     [v(line)] for you teach me.
+   Paragraph 219:
+     [v103] Your words are sweeter
+   Paragraph 220:
+     [v(line)] in my mouth than honey!#
+       [chunk] in my mouth than honey!#
+                 [TN] Heb “How smooth they are to my palate, your word, more than honey to my mouth.” A few...
+   Paragraph 221:
+     [v104] Your precepts give me discernment.
+   Paragraph 222:
+     [v(line)] Therefore I hate all deceitful actions.#
+       [chunk] Therefore I hate all deceitful actions.#
+                 [TN] Heb “every false path.”
+   Paragraph 223:
+     [v(line)] נ ( Nun )
+   Paragraph 224:
+     [v105] Your word# is a lamp to walk by,
+       [chunk] Your word#
+                 [TN] Many medieval Hebrew mss read the plural (“words”).
+   Paragraph 225:
+     [v(line)] and a light to illumine my path.#
+       [chunk] and a light to illumine my path.#
+                 [TN] Heb “[is] a lamp for my foot and a light for my path.”
+   Paragraph 226:
+     [v106] I have vowed and solemnly sworn
+   Paragraph 227:
+     [v(line)] to keep your just regulations.
+   Paragraph 228:
+     [v107] I am suffering terribly.
+   Paragraph 229:
+     [v(line)] O Lord, revive me with your word!#
+       [chunk] O Lord, revive me with your word!#
+                 [TN] Heb “according to your word.”
+   Paragraph 230:
+     [v108] O Lord, please accept the freewill offerings of my praise!#
+       [chunk] O Lord, please accept the freewill offerings of my praise!#
+                 [TN] Heb “of my mouth.”
+   Paragraph 231:
+     [v(line)] Teach me your regulations!
+   Paragraph 232:
+     [v109] My life is in continual danger,#
+       [chunk] My life is in continual danger,#
+                 [TN] Heb “my life [is] in my hands continually.”
+   Paragraph 233:
+     [v(line)] but I do not forget your law.
+   Paragraph 234:
+     [v110] The wicked lay a trap for me,
+   Paragraph 235:
+     [v(line)] but I do not wander from your precepts.
+   Paragraph 236:
+     [v111] I claim your rules as my permanent possession,
+   Paragraph 237:
+     [v(line)] for they give me joy.#
+       [chunk] for they give me joy.#
+                 [TN] Heb “for the joy of my heart [are] they.”
+   Paragraph 238:
+     [v112] I am determined to obey# your statutes
+       [chunk] I am determined to obey#
+                 [TN] Heb “I turn my heart to do.”
+   Paragraph 239:
+     [v(line)] at all times, to the very end.
+   Paragraph 240:
+     [v(line)] ס ( Samek )
+   Paragraph 241:
+     [v(line)] ֹ119:113 I hate people with divided loyalties,#
+       [chunk] ֹ119:113 I hate people with divided loyalties,#
+                 [TN] Heb “divided ones.” The word occurs only here; it appears to be derived from a verbal...
+   Paragraph 242:
+     [v(line)] but I love your law.
+   Paragraph 243:
+     [v114] You are my hiding place and my shield.
+   Paragraph 244:
+     [v(line)] I find hope in your word.
+   Paragraph 245:
+     [v115] Turn away from me, you evil men,
+   Paragraph 246:
+     [v(line)] so that I can observe# the commands of my God.#
+       [chunk] so that I can observe#
+                 [TN] The cohortative verbal form with vav (ו) conjunctive indicates purpose/result after t...
+       [chunk] the commands of my God.#
+                 [TN] The psalmist has already declared that he observes God’s commands despite persecution...
+   Paragraph 247:
+     [v116] Sustain me as you promised,# so that I will live.#
+       [chunk] Sustain me as you promised,#
+                 [TN] Heb “according to your word.”
+       [chunk] so that I will live.#
+                 [TN] The prefixed verbal form with vav (ו) conjunctive indicates purpose/result after the ...
+   Paragraph 248:
+     [v(line)] Do not disappoint me!#
+       [chunk] Do not disappoint me!#
+                 [TN] Heb “do not make me ashamed of my hope.” After the Hebrew verb בּוֹשׁ (bosh, “to be a...
+   Paragraph 249:
+     [v117] Support me, so that I will be delivered.
+   Paragraph 250:
+     [v(line)] Then I will focus# on your statutes continually.
+       [chunk] Then I will focus#
+                 [TN] Or “and that I might focus.” The two cohortatives with vav (ו) conjunctive indicate p...
+   Paragraph 251:
+     [v118] You despise# all who stray from your statutes,
+       [chunk] You despise#
+                 [TN] The Hebrew verb סָלָה (salah, “to disdain”) occurs only here and in Lam 1:15. Cognate...
+   Paragraph 252:
+     [v(line)] for they are deceptive and unreliable.#
+       [chunk] for they are deceptive and unreliable.#
+                 [TN] Heb “for their deceit [is] falsehood.”
+   Paragraph 253:
+     [v119] You remove all the wicked of the earth like slag.#
+       [chunk] You remove all the wicked of the earth like slag.#
+                 [SN] Traditionally “dross” (so KJV, ASV, NIV). The metaphor comes from metallurgy; “slag” ...
+   Paragraph 254:
+     [v(line)] Therefore I love your rules.#
+       [chunk] Therefore I love your rules.#
+                 [SN] As he explains in the next verse, the psalmist’s fear of judgment motivates him to ob...
+   Paragraph 255:
+     [v120] My body# trembles# because I fear you;#
+       [chunk] My body#
+                 [TN] Heb “my flesh.”
+       [chunk] trembles#
+                 [TN] The Hebrew verb סָמַר (samar, “to tremble”) occurs only here and in Job 4:15.
+       [chunk] because I fear you;#
+                 [TN] Heb “from fear of you.” The pronominal suffix on the noun is an objective genitive.
+   Paragraph 256:
+     [v(line)] I am afraid of your judgments.
+   Paragraph 257:
+     [v(line)] ע ( Ayin )
+   Paragraph 258:
+     [v121] I do what is fair and right.#
+       [chunk] I do what is fair and right.#
+                 [TN] Heb “do justice and righteousness.”
+   Paragraph 259:
+     [v(line)] Do not abandon me to my oppressors!
+   Paragraph 260:
+     [v122] Guarantee the welfare of your servant!#
+       [chunk] Guarantee the welfare of your servant!#
+                 [TN] Heb “be surety for your servant for good.”
+   Paragraph 261:
+     [v(line)] Do not let the arrogant oppress me!
+   Paragraph 262:
+     [v123] My eyes grow tired as I wait for your deliverance,#
+       [chunk] My eyes grow tired as I wait for your deliverance,#
+                 [TN] Heb “my eyes fail for your deliverance.” The psalmist has intently kept his eyes open...
+   Paragraph 263:
+     [v(line)] for your reliable promise to be fulfilled.#
+       [chunk] for your reliable promise to be fulfilled.#
+                 [TN] Heb “and for the word of your faithfulness.”
+   Paragraph 264:
+     [v124] Show your servant your loyal love!#
+       [chunk] Show your servant your loyal love!#
+                 [TN] Heb “do with your servant according to your loyal love.”
+   Paragraph 265:
+     [v(line)] Teach me your statutes!
+   Paragraph 266:
+     [v125] I am your servant. Give me insight,
+   Paragraph 267:
+     [v(line)] so that I can understand# your rules.
+       [chunk] so that I can understand#
+                 [TN] or “know.” The cohortative verbal form with vav (ו) conjunctive indicates purpose/res...
+   Paragraph 268:
+     [v126] It is time for the Lord to act –
+   Paragraph 269:
+     [v(line)] they break your law!
+   Paragraph 270:
+     [v127] For this reason# I love your commands
+       [chunk] For this reason#
+                 [TN] “For this reason” connects logically with the statement made in v. 126. Because the j...
+   Paragraph 271:
+     [v(line)] more than gold, even purest gold.
+   Paragraph 272:
+     [v128] For this reason I carefully follow all your precepts.#
+       [chunk] For this reason I carefully follow all your precepts.#
+                 [TN] Heb “for this reason all the precepts of everything I regard as right.” The phrase “p...
+   Paragraph 273:
+     [v(line)] I hate all deceitful actions.#
+       [chunk] I hate all deceitful actions.#
+                 [TN] Heb “every false path.”
+   Paragraph 274:
+     [v(line)] פ ( Pe )
+   Paragraph 275:
+     [v129] Your rules are marvelous.
+   Paragraph 276:
+     [v(line)] Therefore I observe them.
+   Paragraph 277:
+     [v130] Your instructions are a doorway through which light shines.#
+       [chunk] Your instructions are a doorway through which light shines.#
+                 [TN] Heb “the doorway of your words gives light.” God’s “words” refer here to the instruct...
+   Paragraph 278:
+     [v(line)] They give# insight to the untrained.#
+       [chunk] They give#
+                 [TN] Heb “it [i.e., the doorway] gives.”
+       [chunk] insight to the untrained.#
+                 [TN] Or “the [morally] naive,” that is, the one who is young and still in the process of l...
+   Paragraph 279:
+     [v131] I open my mouth and pant,
+   Paragraph 280:
+     [v(line)] because I long# for your commands.
+       [chunk] because I long#
+                 [TN] The verb occurs only here in the OT.
+   Paragraph 281:
+     [v132] Turn toward me and extend mercy to me,
+   Paragraph 282:
+     [v(line)] as you typically do to your loyal followers.#
+       [chunk] as you typically do to your loyal followers.#
+                 [TN] Heb “according to custom toward the lovers of your name.” The “lovers of” God’s “name...
+   Paragraph 283:
+     [v133] Direct my steps by your word!#
+       [chunk] Direct my steps by your word!#
+                 [TN] God’s “word” refers here to his law (see v. 11).
+   Paragraph 284:
+     [v(line)] Do not let any sin dominate me!
+   Paragraph 285:
+     [v134] Deliver me# from oppressive men,
+       [chunk] Deliver me#
+                 [TN] Or “redeem me.”
+   Paragraph 286:
+     [v(line)] so that I can keep# your precepts.
+       [chunk] so that I can keep#
+                 [TN] The cohortative verbal form with vav (ו) conjunctive indicates purpose/result after t...
+   Paragraph 287:
+     [v135] Smile# on your servant!
+       [chunk] Smile#
+                 [TN] Heb “cause your face to shine.”
+   Paragraph 288:
+     [v(line)] Teach me your statutes!
+   Paragraph 289:
+     [v136] Tears stream down from my eyes,#
+       [chunk] Tears stream down from my eyes,#
+                 [TN] Heb “[with] flowing streams my eyes go down.”
+   Paragraph 290:
+     [v(line)] because people# do not keep your law.
+       [chunk] because people#
+                 [TN] Heb “they”; even though somewhat generic, the referent (people) has been specified in...
+   Paragraph 291:
+     [v(line)] צ ( Tsade )
+   Paragraph 292:
+     [v137] You are just, O Lord ,
+   Paragraph 293:
+     [v(line)] and your judgments are fair.
+   Paragraph 294:
+     [v138] The rules you impose are just,#
+       [chunk] The rules you impose are just,#
+                 [TN] Heb “you commanded [in] justice your rules.”
+   Paragraph 295:
+     [v(line)] and absolutely reliable.
+   Paragraph 296:
+     [v139] My zeal# consumes# me,
+       [chunk] My zeal#
+                 [TN] or “zeal.”
+       [chunk] consumes#
+                 [TN] Heb “destroys,” in a hyperbolic sense.
+   Paragraph 297:
+     [v(line)] for my enemies forget your instructions.#
+       [chunk] for my enemies forget your instructions.#
+                 [TN] Heb “your words.”
+   Paragraph 298:
+     [v140] Your word is absolutely pure,
+   Paragraph 299:
+     [v(line)] and your servant loves it!
+   Paragraph 300:
+     [v141] I am insignificant and despised,
+   Paragraph 301:
+     [v(line)] yet I do not forget your precepts.
+   Paragraph 302:
+     [v142] Your justice endures,#
+       [chunk] Your justice endures,#
+                 [TN] Heb “your justice [is] justice forever.”
+   Paragraph 303:
+     [v(line)] and your law is reliable.#
+       [chunk] and your law is reliable.#
+                 [TN] Or “truth.”
+   Paragraph 304:
+     [v143] Distress and hardship confront# me,
+       [chunk] Distress and hardship confront#
+                 [TN] Heb “find.”
+   Paragraph 305:
+     [v(line)] yet I find delight in your commands.
+   Paragraph 306:
+     [v144] Your rules remain just.#
+       [chunk] Your rules remain just.#
+                 [TN] Heb “just are your rules forever.”
+   Paragraph 307:
+     [v(line)] Give me insight so that I can live.#
+       [chunk] Give me insight so that I can live.#
+                 [TN] The cohortative verbal form with vav (ו) conjunctive indicates purpose/result after t...
+   Paragraph 308:
+     [v(line)] ק ( Qof )
+   Paragraph 309:
+     [v145] I cried out with all my heart, “Answer me, O Lord !
+   Paragraph 310:
+     [v(line)] I will observe your statutes.”
+   Paragraph 311:
+     [v146] I cried out to you, “Deliver me,
+   Paragraph 312:
+     [v(line)] so that I can keep# your rules.”
+       [chunk] so that I can keep#
+                 [TN] The cohortative verbal form with vav (ו) conjunctive indicates purpose/result after t...
+   Paragraph 313:
+     [v147] I am up before dawn crying for help.
+   Paragraph 314:
+     [v(line)] I find hope in your word.
+   Paragraph 315:
+     [v148] My eyes anticipate the nighttime hours,
+   Paragraph 316:
+     [v(line)] so that I can meditate on your word.
+   Paragraph 317:
+     [v149] Listen to me# because of# your loyal love!
+       [chunk] Listen to me#
+                 [TN] Heb “my voice.”
+       [chunk] because of#
+                 [TN] Heb “according to.”
+   Paragraph 318:
+     [v(line)] O Lord, revive me, as you typically do!#
+       [chunk] O Lord, revive me, as you typically do!#
+                 [TN] Heb “according to your custom.”
+   Paragraph 319:
+     [v150] Those who are eager to do# wrong draw near;
+       [chunk] Those who are eager to do#
+                 [TN] Heb “those who pursue.”
+   Paragraph 320:
+     [v(line)] they are far from your law.
+   Paragraph 321:
+     [v151] You are near, O Lord ,
+   Paragraph 322:
+     [v(line)] and all your commands are reliable.#
+       [chunk] and all your commands are reliable.#
+                 [TN] Or “truth.”
+   Paragraph 323:
+     [v152] I learned long ago that
+   Paragraph 324:
+     [v(line)] you ordained your rules to last.#
+       [chunk] you ordained your rules to last.#
+                 [TN] Heb “long ago I knew concerning your rules, that forever you established them.” See v...
+   Paragraph 325:
+     [v(line)] ר ( Resh )
+   Paragraph 326:
+     [v153] See my pain and rescue me!
+   Paragraph 327:
+     [v(line)] For I do not forget your law.
+   Paragraph 328:
+     [v154] Fight for me# and defend me!#
+       [chunk] Fight for me#
+                 [TN] Or “argue my case.”
+       [chunk] and defend me!#
+                 [TN] Heb “and redeem me.” The verb “redeem” casts the Lord in the role of a leader who pro...
+   Paragraph 329:
+     [v(line)] Revive me with your word!
+   Paragraph 330:
+     [v155] The wicked have no chance for deliverance,#
+       [chunk] The wicked have no chance for deliverance,#
+                 [TN] Heb “far from the wicked [is] deliverance.”
+   Paragraph 331:
+     [v(line)] for they do not seek your statutes.
+   Paragraph 332:
+     [v156] Your compassion is great, O Lord .
+   Paragraph 333:
+     [v(line)] Revive me, as you typically do!#
+       [chunk] Revive me, as you typically do!#
+                 [TN] Heb “according to your customs.”
+   Paragraph 334:
+     [v157] The enemies who chase me are numerous.#
+       [chunk] The enemies who chase me are numerous.#
+                 [TN] Heb “many [are] those who chase me and my enemies.”
+   Paragraph 335:
+     [v(line)] Yet I do not turn aside from your rules.
+   Paragraph 336:
+     [v158] I take note of the treacherous and despise them,
+   Paragraph 337:
+     [v(line)] because they do not keep your instructions.#
+       [chunk] because they do not keep your instructions.#
+                 [TN] Heb “your word.”
+   Paragraph 338:
+     [v159] See how I love your precepts!
+   Paragraph 339:
+     [v(line)] O Lord , revive me with your loyal love!
+   Paragraph 340:
+     [v160] Your instructions are totally reliable;
+   Paragraph 341:
+     [v(line)] all your just regulations endure.#
+       [chunk] all your just regulations endure.#
+                 [TN] Heb “the head of your word is truth, and forever [is] all your just regulation.” The ...
+   Paragraph 342:
+     [v(line)] שׂ/שׁ ( Sin/Shin )
+   Paragraph 343:
+     [v161] Rulers pursue me for no reason,
+   Paragraph 344:
+     [v(line)] yet I am more afraid of disobeying your instructions.#
+       [chunk] yet I am more afraid of disobeying your instructions.#
+                 [TN] Heb “and because of your instructions my heart trembles.” The psalmist’s healthy “fea...
+   Paragraph 345:
+     [v162] I rejoice in your instructions,
+   Paragraph 346:
+     [v(line)] like one who finds much plunder.#
+       [chunk] like one who finds much plunder.#
+                 [TN] Heb “like one who finds great plunder.” See Judg 5:30. The image is that of a victori...
+   Paragraph 347:
+     [v163] I hate and despise deceit;
+   Paragraph 348:
+     [v(line)] I love your law.
+   Paragraph 349:
+     [v164] Seven# times a day I praise you
+       [chunk] Seven#
+                 [TN] The number “seven” is use rhetorically to suggest thoroughness.
+   Paragraph 350:
+     [v(line)] because of your just regulations.
+   Paragraph 351:
+     [v165] Those who love your law are completely secure;#
+       [chunk] Those who love your law are completely secure;#
+                 [TN] Heb “great peace [is] to the lovers of your law.”
+   Paragraph 352:
+     [v(line)] nothing causes them to stumble.#
+       [chunk] nothing causes them to stumble.#
+                 [TN] Heb “and there is no stumbling to them.”
+   Paragraph 353:
+     [v166] I hope for your deliverance, O Lord ,
+   Paragraph 354:
+     [v(line)] and I obey# your commands.
+       [chunk] and I obey#
+                 [TN] Heb “do.”
+   Paragraph 355:
+     [v167] I keep your rules;
+   Paragraph 356:
+     [v(line)] I love them greatly.
+   Paragraph 357:
+     [v168] I keep your precepts and rules,
+   Paragraph 358:
+     [v(line)] for you are aware of everything I do.#
+       [chunk] for you are aware of everything I do.#
+                 [TN] Heb “for all my ways [are] before you.”
+   Paragraph 359:
+     [v(line)] ת ( Tav )
+   Paragraph 360:
+     [v169] Listen to my cry for help,# O Lord!
+       [chunk] Listen to my cry for help,#
+                 [TN] Heb “may my cry approach before you.”
+   Paragraph 361:
+     [v(line)] Give me insight by your word!
+   Paragraph 362:
+     [v170] Listen to my appeal for mercy!#
+       [chunk] Listen to my appeal for mercy!#
+                 [TN] Heb “may my appeal for mercy come before you.”
+   Paragraph 363:
+     [v(line)] Deliver me, as you promised.#
+       [chunk] Deliver me, as you promised.#
+                 [TN] Heb “according to your speech.”
+   Paragraph 364:
+     [v171] May praise flow freely from my lips,
+   Paragraph 365:
+     [v(line)] for you teach me your statutes.
+   Paragraph 366:
+     [v172] May my tongue sing about your instructions,#
+       [chunk] May my tongue sing about your instructions,#
+                 [TN] Heb “your word.”
+   Paragraph 367:
+     [v(line)] for all your commands are just.
+   Paragraph 368:
+     [v173] May your hand help me,
+   Paragraph 369:
+     [v(line)] for I choose to obey# your precepts.
+       [chunk] for I choose to obey#
+                 [TN] The words “to obey” are not in the Hebrew text, but have been supplied in the transla...
+   Paragraph 370:
+     [v174] I long for your deliverance, O Lord ;
+   Paragraph 371:
+     [v(line)] I find delight in your law.
+   Paragraph 372:
+     [v175] May I# live and praise you!
+       [chunk] May I#
+                 [TN] Heb “my life.”
+   Paragraph 373:
+     [v(line)] May your regulations help me!#
+       [chunk] May your regulations help me!#
+                 [TN] God’s regulations will “help” the psalmist by giving him moral and ethical guidance.
+   Paragraph 374:
+     [v176] I have wandered off like a lost sheep.#
+       [chunk] I have wandered off like a lost sheep.#
+                 [TN] Heb “I stray like a lost sheep.” It is possible that the point of the metaphor is vul...
+   Paragraph 375:
+     [v(line)] Come looking for your servant,
+   Paragraph 376:
+     [v(line)] for I do not forget your commands.

@@ -367,6 +367,24 @@ def _parse_heading(tag: Tag) -> tuple[str, list[Footnote]]:
 
     walk(tag)
     heading_text = re.sub(r"\s+", " ", "".join(text_parts)).strip()
+
+    # Defensive: if the ft span was not caught by the walk (e.g. it used an
+    # unrecognised class), its text leaks into heading_text as:
+    #   "Psalm 119 sn The psalmist..." or "sn The psalmist..."
+    # Detect a note prefix (tn/sn/tc + space) anywhere in the text and split there.
+    note_start = re.search(r'(?:^|(?<=\s))(tn|sn|tc) ', heading_text)
+    if note_start:
+        pure_heading = heading_text[:note_start.start()].strip()
+        note_block   = heading_text[note_start.start():].strip()
+        positions = [(m.start(), m.group(1)) for m in _NOTE_BOUNDARY.finditer(note_block)]
+        extra_fns: list[Footnote] = []
+        for idx, (pos, prefix) in enumerate(positions):
+            body_start = pos + len(prefix) + 1
+            body_end   = positions[idx + 1][0] if idx + 1 < len(positions) else len(note_block)
+            extra_fns.append(Footnote(type=prefix, text=note_block[body_start:body_end].strip()))  # type: ignore[arg-type]
+        footnotes = extra_fns + footnotes
+        heading_text = pure_heading
+
     return heading_text, footnotes
 
 
@@ -429,11 +447,14 @@ def print_structure(cp: ChapterPage, show_footnotes: bool = True) -> None:
           f"tc={len(cp.footnotes_by_type('tc'))})")
     print("=" * 70)
     for s_i, section in enumerate(cp.sections, 1):
-        print(f"\n-- Section {s_i}: {section.heading or '(no heading)'}")
-        if show_footnotes and section.heading_footnotes:
-            for fn in section.heading_footnotes:
-                print(f"   [HEADING {fn.type.upper()}] "
-                      f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")
+        heading = section.heading or '(no heading)'
+        if section.heading_footnotes:
+            print(f"\n-- Section {s_i}: {heading}")
+            if show_footnotes:
+                for fn in section.heading_footnotes:
+                    print(f"   [{fn.type.upper()}] {fn.text}")
+        else:
+            print(f"\n-- Section {s_i}: {heading}")
         for p_i, para in enumerate(section.paragraphs, 1):
             print(f"   Paragraph {p_i}:")
             # for verse in para.verses:
@@ -447,16 +468,15 @@ def print_structure(cp: ChapterPage, show_footnotes: bool = True) -> None:
             #                       f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")
             for verse in para.verses:
                 print(f"     [v{verse.number if verse.number is not None else '(line)'}] "
-                    f"{verse.plain_text[:80]}{'...' if len(verse.plain_text) > 80 else ''}"
+                      f"{verse.plain_text[:80]}{'...' if len(verse.plain_text) > 80 else ''}"
                     # f"{verse.plain_text}"
-                    )
+                      )
                 for chunk in verse.chunks:
                     if chunk.footnotes:
                         print(f"       [chunk] {chunk.text[:60]}{'...' if len(chunk.text) > 60 else ''}")
                         for fn in chunk.footnotes:
                             print(f"                 [{fn.type.upper()}] "
                                     f"{fn.text[:85]}{'...' if len(fn.text) > 85 else ''}")   
-
 
 
 # ── Entry point ───────────────────────────────────────────────────────────────
